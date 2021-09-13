@@ -197,7 +197,31 @@ def calculate_v_formation_position(vehicle_name: str,
     return next_pos
 
 
+def calculate_star_formation(vehicle_name: str,
+                                   heading: float) -> PosVec3:
+    '''
 
+
+    '''
+    leader_pos = copy.deepcopy(vehicles[leader]["global_position"])
+    print("\nLeader's Position: {}".format(leader_pos))
+
+    if vehicle_name == leader:
+        return leader_pos
+    
+    equi_angle = 360.0 / num_vehicles 
+    swarm_pos = int(vehicle_name[-1])
+
+    
+
+    next_pos = PosVec3(frame="global")
+    
+    
+    
+
+
+
+    return next_pos
 
 
 def fly_to_new_position(vehicle_name: str,
@@ -305,7 +329,7 @@ start_offset = PosVec3(X=5, Y=0, Z=0, frame="global")
 # Grab settings from local settings file
 try:
     # TODO Make this a relative path to the repo
-    with open("/home/codexlabs/Documents/AirSim/settings.json", "r") as f:
+    with open("/home/rptamin/Documents/AirSim/settings.json", "r") as f:
         settings = json.load(f)
 except Exception:
     print("Please change the path to the JSON settings file!")
@@ -362,6 +386,7 @@ for name in vehicles.keys():
         frame="global")
     vehicles[name]["orientation"] = Quaternion()
 
+num_vehicles = len(vehicles)
 # connect to the AirSim simulator
 client = airsim.MultirotorClient()
 client.confirmConnection()
