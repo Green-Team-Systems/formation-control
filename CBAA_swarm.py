@@ -12,6 +12,9 @@ from utils.dataclasses import PosVec3, Quaternion
 
 
 
+def nbr(adj: np.array, i: int):
+
+    return np.nonzero(adj[:,i])
 def CBAA_swarm(adj: np.array, pm: np.array, qm: np.array ) -> np.array :
     '''
     CBAA implementation for swarm assignment
@@ -28,32 +31,31 @@ def CBAA_swarm(adj: np.array, pm: np.array, qm: np.array ) -> np.array :
     n = np.shape(pm)[1] #number of agents
     id = np.identity(n)
     #G = adj + np.identity(n)
-    G = [[adj[i][j] + id[i][j]  for j in range(len(adj[0]))] for i in range(len(adj))]
+    G = np.array([[adj[i][j] + id[i][j]  for j in range(len(adj[0]))] for i in range(len(adj))])
+    print(type(G))
 
 
     ##Alignment
 
     # Compute the R, t, aligned_ps for agents
-    Rs = np.empty(shape(1,n), dtype=int)
-    ts = np.empty(shape(1,n), dtype=int)
-    aligned_ps = np.empty(shape(1,n), dtype=int)
-
-
+    Rs = []*n
+    ts = []*n
+    aligned_ps = []*n
     
+    for i in list(range(1,n)):
+        neighbors = G[:,i]
+        ps = pm[:,i]
+        qs = qm[:,i]
 
-    #for _ in len(n):
+
         
-
-#def nbr(adj: np.array, i: int):
-
-    #return np.nonzero(adj[:,i])
 
 #--------------------TEST------------------
 
 n = 4
 Adj = np.ones(n) - np.identity(n)
-x_i = [[-1, 1, 1, -1], [-1, -1, 1, 1]]
-p_i = [[-2, 4, 2, 4],[0, 0, 0, 0]]
+x_i = np.array([[-1, 1, 1, -1], [-1, -1, 1, 1]])
+p_i = np.array([[-2, 4, 2, 4],[0, 0, 0, 0]])
 
 
 output = CBAA_swarm(Adj, p_i, x_i )
