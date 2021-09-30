@@ -15,6 +15,32 @@ from utils.dataclasses import PosVec3, Quaternion
 def nbr(adj: np.array, i: int):
 
     return np.nonzero(adj[:,i])
+
+
+def arun(q: np.array, p: np.array):
+    '''
+    Assume q and p are d x n (d: 2D or 3D)
+
+    Minimizes the ||q - (Rp + t)
+    '''
+    d = len(q)
+    e = len(p)
+    print(q)
+    print(p)
+    #shift point clouds by centroid
+    mu_q = np.mean(q)
+    mu_p = np.mean(p)
+
+    Q = q - mu_q
+    P = p - mu_p
+
+    #Construct H matrix
+    H = Q * np.transpose(P)
+    print(H)
+
+    return
+
+
 def CBAA_swarm(adj: np.array, pm: np.array, qm: np.array ) -> np.array :
     '''
     CBAA implementation for swarm assignment
@@ -46,6 +72,7 @@ def CBAA_swarm(adj: np.array, pm: np.array, qm: np.array ) -> np.array :
         neighbors = G[:,i]
         ps = pm[:,i]
         qs = qm[:,i]
+        arun(qs,ps)
 
 
         
