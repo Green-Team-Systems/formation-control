@@ -92,9 +92,13 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) ->
     if np.sum(drone_info["TaskList"]) == 0:
         for i, target in enumerate(targets):
             pos_diff = ned_position_difference(target, position)
-            drone_info["RawBids"][i] = (1 / pos_diff)
+            if pos_diff == 0:
+                drone_info["RawBids"][i] = float("Inf")
+                bid = float("Inf")
+            else:
+                drone_info["RawBids"][i] = (1 / pos_diff)
+                bid = (1 / (pos_diff))
             pos_diffs.append(pos_diff)
-            bid = (1 / (pos_diff))
 
             if bid >= (drone_info["WinningBids"][i]):
                 availability[i] = 1
