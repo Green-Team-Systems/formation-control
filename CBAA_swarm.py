@@ -55,7 +55,7 @@ def CBAA_swarm(adj: np.array, targets: np.array, drones: dict ) -> np.array :
     n = len(list(drones.keys())) #number of agents
     drone_ids = list()
     for name in drones.keys():
-        drone_id = int(name[-1])
+        drone_id = int(name.lstrip("Drone"))
         drone_ids.append(drone_id)
     id = np.identity(n)
     G = np.array([[adj[i][j] + id[i][j]  for j in range(len(adj[0]))] for i in range(len(adj))])
@@ -92,9 +92,13 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) ->
     if np.sum(drone_info["TaskList"]) == 0:
         for i, target in enumerate(targets):
             pos_diff = ned_position_difference(target, position)
-            drone_info["RawBids"][i] = (1 / pos_diff)
+            if pos_diff == 0:
+                drone_info["RawBids"][i] = float("Inf")
+                bid = float("Inf")
+            else:
+                drone_info["RawBids"][i] = (1 / pos_diff)
+                bid = (1 / (pos_diff))
             pos_diffs.append(pos_diff)
-            bid = (1 / (pos_diff))
 
             if bid >= (drone_info["WinningBids"][i]):
                 availability[i] = 1
@@ -109,7 +113,7 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) ->
         if sum(availability) != 0:
             task_selected = np.argmax([drone_info["Bids"][i] * availability[i] for i in range(len(targets))])
             drone_info["WinningBids"][task_selected] = drone_info["Bids"][task_selected]
-            drone_info["SwarmBids"][drone_name[-1]] = copy.deepcopy(drone_info["WinningBids"])
+            drone_info["SwarmBids"][drone_name.lstrip("Drone")] = copy.deepcopy(drone_info["WinningBids"])
 
             drone_info["TaskList"][task_selected] = 1
     else:
@@ -130,7 +134,7 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) ->
 
 def transmit_bids(drone_name: str, drones: dict, drone_ids: list) -> None:
     bid_list = drones[drone_name]["WinningBids"]
-    drone_id = int(drone_name[-1])
+    drone_id = int(drone_name.lstrip("Drone"))
     for swarm_id in drone_ids:
         if swarm_id != drone_id:
             swarm_name = "Drone{}".format(swarm_id)
