@@ -84,12 +84,12 @@ def CBAA_swarm(adj: np.array, targets: np.array, drones: dict ) -> np.array :
 def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) -> float:
     position = drone_info["Position"]
     drone_info["Bids"] = [0 for _ in range(len(targets))]
-    availability = drone_info["TaskAvailability"]
     pos_diffs = list()
     if debug:
         print("{}: {}".format(drone_name, drone_info["WinningBids"]))
         print("{}: {}".format(drone_name, drone_info["RawBids"]))
     if np.sum(drone_info["TaskList"]) == 0:
+        availability = drone_info["TaskAvailability"]
         for i, target in enumerate(targets):
             pos_diff = ned_position_difference(target, position)
             if pos_diff == 0:
@@ -100,7 +100,7 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) ->
                 bid = (1 / (pos_diff))
             pos_diffs.append(pos_diff)
 
-            if bid >= (drone_info["WinningBids"][i]):
+            if bid > (drone_info["WinningBids"][i]):
                 availability[i] = 1
                 drone_info["Bids"][i] = bid
             else:
@@ -116,16 +116,7 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int) ->
             drone_info["SwarmBids"][drone_name.lstrip("Drone")] = copy.deepcopy(drone_info["WinningBids"])
 
             drone_info["TaskList"][task_selected] = 1
-    else:
-        task_selected = np.argmax(drone_info["TaskList"])
-
-        for i, raw_bid in enumerate(drone_info["RawBids"]):
-            if i != task_selected and (raw_bid in drone_info["WinningBids"]):
-                drone_info["WinningBids"][i] = 0
-
-                # drone_info["Bids"][i] = (1 / (pos_diff + 500))
-        
-        # print("{} selected Task {}".format(drone_name, task_selected))
+   
     if debug:
         print("{}: {}".format(drone_name, drone_info["WinningBids"]))
         print("{}: {}".format(drone_name, drone_info["RawBids"]))
@@ -142,6 +133,7 @@ def transmit_bids(drone_name: str, drones: dict, drone_ids: list) -> None:
 
 
 def determine_task_list(drone_name: str, drone_info: dict) -> None:
+    drone_id = int(drone_name.lstrip("Drone")) - 1
     swarm_bids = drone_info["SwarmBids"]
     task_list = drone_info["TaskList"]
     if debug:
@@ -156,14 +148,18 @@ def determine_task_list(drone_name: str, drone_info: dict) -> None:
     for j, col in enumerate(bid_columns):
         if debug:
             print("Task {} Bids: {}".format(j + 1, col))
+        best_bid = np.max(col)
+        if drone_info["Winners"][j] and best_bid == drone_info["Winners"][j]["bid"]:
+            continue
         selections[j] = np.argmax(col)
         drone_info["Winners"][j] = dict(id=selections[j], bid=col[selections[j]])
         drone_info["WinningBids"][j] = col[selections[j]]
     if debug:
         print("{} Raw Bids: {}".format(drone_name, drone_info["RawBids"]))
-    for i, winner in enumerate(drone_info["WinningBids"]):
-        if winner not in drone_info["RawBids"]:
-            task_list[i] = 0
+    for j, winner in enumerate(drone_info["Winners"]):
+        winner_id = winner["id"]
+        if winner_id != drone_id:
+            task_list[j] = 0
     if debug:
         print("{} tasks: {}".format(drone_name, task_list))
 
