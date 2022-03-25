@@ -1,7 +1,7 @@
 # ================================================================
 # Created by: Jack Roy
 # Created On: Febuary 2022
-# Updated On: Febuary 2022
+# Updated On: March 2022
 #
 # Description: DHBA implementation for SWARMS
 # ================================================================
@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 import copy
 import random
 import time
+import sys
 
 from numpy.core.fromnumeric import shape
 
@@ -27,8 +28,20 @@ from utils.test_cases import test_cases
 
 np.set_printoptions(precision=2)
 
+##edit output to go to a file instead of the terminal
+f = open("DHBA_output.txt", 'w')
+sys.stdout = f
+w_cost = 0
+t_cost = 0
+w_time = 0
+t_time = 0
+w_rounds = 0
+t_rounds = 0
+dist_list = list()
+
 #%%
 
+global test_num  #here for generating figures all at once
 
 def calculate_costs(position: PosVec3, target: PosVec3) -> float:
     '''
@@ -155,6 +168,7 @@ def DHBA(targets, drones):
     '''
     start = time.time()
     cost_matrix = calc_cost_matrix(drones, targets)
+    rounds = 0
     
     if(debug):
         print("initial cost matrix")
@@ -179,6 +193,7 @@ def DHBA(targets, drones):
     #find 0 values in the cost matrix and use that to assign tasks
     num_assignments = 0
     while(num_assignments < len(drones)):
+        rounds += 1
         marked_zeros, marked_rows, marked_cols = zero_marker(cost_matrix)
         
         if(debug):
@@ -203,8 +218,18 @@ def DHBA(targets, drones):
     
     #finalize and plot
     end = time.time()
-    print("\nTask Allocation took {} seconds\n".format(end-start))
+    timmy = end-start
+    global w_time, t_time, w_cost, t_cost, w_rounds, t_rounds, dist_list
+    print("\nTask Allocation took {} seconds\n".format(timmy))
     print("Total Cost is {:.2f} meters\n".format(total_dist))
+    print("Total number of rounds:", rounds)
+    if(timmy > w_time): w_time = timmy
+    t_time += timmy
+    if(total_dist > w_cost): w_cost = total_dist
+    t_cost += total_dist
+    dist_list.append(total_dist)
+    if(rounds > w_rounds): w_rounds = rounds
+    t_rounds += rounds
     plot_targets(targets, drones, False, True)
 
 
@@ -242,7 +267,7 @@ def plot_targets(targets, drones, show_labels=True, show_lines=True):
     for name, info in drones.items():
             for i in range(len(info["TaskList"])):
                 if(info["TaskList"][i] == 1):
-                    print("{} goes to target {}".format(name, i+1))
+                    #print("{} goes to target {}".format(name, i+1))
                     xs = [target_list_x[i], info["Position"].X]
                     ys = [target_list_y[i], info["Position"].Y]
                     if show_lines:
@@ -252,39 +277,60 @@ def plot_targets(targets, drones, show_labels=True, show_lines=True):
     plt.axis('square')
     plt.xlabel("X-Axis (meters)")
     plt.xlabel("Y-Axis (meters)")
-    plt.show()
+    #plt.show()
+    filename = 'output_images2/DHBA_test_{}_figure.png'.format(test_num)
+    plt.savefig(filename)
+    plt.clf()
 
 #%%
 #--------------------TEST------------------
 if __name__ == "__main__":
+
+    ##add in how many bits of communication it takes
     debug = False
     gen_drones = True
     gen_targets = True
-    map_boundary = {"+X": 400,
-                    "-X": -400,
-                    "+Y": 400,
-                    "-Y": -400} # Meters
+    map_boundary = {"+X": 800,
+                    "-X": -800,
+                    "+Y": 800,
+                    "-Y": -800} # Meters
     min_separation_distance = 25 # meters
     numb_drones = numb_targets =  6 #test data is in groups of 6
-    new_targets, new_drones = test_cases(1) #see utils/test_cases.py for usage
-    drones = dict()
-    for i in range(numb_drones):
-        drone_name = "Drone {}".format(i + 1)
-        drones[drone_name] = {
-            "Position": new_drones[i],
-            "TaskAvailability": [0 for _ in range(len(new_targets))],
-            "WinningBids": [0 for _ in range(len(new_targets))],
-            "Winners": [None for _ in range(len(new_targets))],
-            "TaskList": [0 for _ in range(len(new_targets))],
-            "RawBids": [0 for _ in range(len(new_targets))],
-            "SwarmBids": {
-                "1": None,
-                "2": None,
-                "3": None,
-                "4": None,
-                "5": None
+    random.seed(1)
+    for j in range(100): #run 50 tests to get full suite
+        print('\nBeginning Test ' +str(j))
+        test_num = j
+        #if(i > 9): #random_testing
+            #numb_drones = numb_targets = i*2
+        new_targets, new_drones = test_cases(11) #see utils/test_cases.py for usage
+        if(j == 97):
+            print(new_targets)
+            print(new_drones)
+        drones = dict()
+        for i in range(numb_drones):
+            drone_name = "Drone{}".format(i + 1)
+            drones[drone_name] = {
+                "Position": new_drones[i],
+                "TaskAvailability": [0 for _ in range(len(new_targets))],
+                "WinningBids": [0 for _ in range(len(new_targets))],
+                "Winners": [None for _ in range(len(new_targets))],
+                "TaskList": [0 for _ in range(len(new_targets))],
+                "RawBids": [0 for _ in range(len(new_targets))],
+                "SwarmBids": {
+                    "1": None,
+                    "2": None,
+                    "3": None,
+                    "4": None,
+                    "5": None
+                }
             }
-        }
 
-    DHBA(new_targets, drones)
+        DHBA(new_targets, drones)
+    print(dist_list)
+    sys.stdout = sys.__stdout__ #set it back
+    print("\nDone Testing\n")
+    print("Time: average was {} and worst was {}".format(t_time / 100, w_time))
+    print("Cost: average was {} and worst was {}".format(t_cost / 100, w_cost))
+    print("Rounds: average was {} and worst was {}".format(t_rounds / 100, w_rounds))
+    f.close()
 # %%

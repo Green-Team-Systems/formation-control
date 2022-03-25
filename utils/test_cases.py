@@ -11,11 +11,12 @@ import random
 
 from utils.data_classes import PosVec3
 
-def test_cases(case_num):
+def test_cases(case_num, rand_num=6):
     '''
     Full set of N test cases for Task Allocation Algorithm
     calling test_cases(n) will yield the drone and position locations for that case
     Number of Drones is 6 unless noted otherwise
+    //expand to make json files?
     Case List:
      1. (easy) Each drone is the same distance from exactly 1 target
      2. (easy) Each drone is closest to one target but different distances
@@ -26,9 +27,12 @@ def test_cases(case_num):
      7. (med)  Drone 1 does not move, other drones come around it
      8. (hard) Test case from earlier, not sure how to describe it
      9. (hard) Drones and targets have a lot of equivalent distances
-    10. (hard) randomly generated
+    10. (hard) rand_num random drones
+    NOTE: random generation does not check for overlaps
     '''
     #no switch statements in python :(
+    #set random seed for testing
+    #random.seed(1)
     if(case_num == 1):
         targets = case1targets()
         drones = case1drones()
@@ -57,8 +61,8 @@ def test_cases(case_num):
         targets = case9targets()
         drones = case9drones()
     else:
-        targets = caseRandom(6)
-        drones = caseRandom(6)
+        targets = caseRandom(rand_num)
+        drones = caseRandom(rand_num)
     return targets, drones
 
 #case 1
@@ -222,13 +226,13 @@ def case9drones():
     return drones
 
 #random cases
-def caseRandom(numb_targets):
+def caseRandom(num):
     targets = list()
-    for _ in range(numb_targets):
+    for _ in range(num):
         targets.append(
             PosVec3(
-                X=random.randrange(-400, 400, 25),
-                Y=random.randrange(-400, 400, 25),
+                X=random.randrange(-800, 800, 25),
+                Y=random.randrange(-800, 800, 25),
                 Z=-1
             )
         )
