@@ -1,0 +1,82 @@
+
+Beginning Test 0
+Task assignments complete
+Total number of rounds: 4
+Task Allocation took 0.004426002502441406 seconds
+
+
+Total Cost is 5073.43 meters
+
+
+Beginning Test 1
+Task assignments complete
+Total number of rounds: 1
+Task Allocation took 0.0019931793212890625 seconds
+
+
+Total Cost is 1200.00 meters
+
+
+Beginning Test 2
+Task assignments complete
+Total number of rounds: 1
+Task Allocation took 0.0019943714141845703 seconds
+
+
+Total Cost is 1121.95 meters
+
+
+Beginning Test 3
+Task assignments complete
+Total number of rounds: 2
+Task Allocation took 0.003988027572631836 seconds
+
+
+Total Cost is 1494.03 meters
+
+
+Beginning Test 4
+Task assignments complete
+Total number of rounds: 1
+Task Allocation took 0.002000093460083008 seconds
+
+
+Total Cost is 1494.03 meters
+
+
+Beginning Test 5
+Task assignments complete
+Total number of rounds: 4
+Task Allocation took 0.003988742828369141 seconds
+
+
+Total Cost is 1010.67 meters
+
+
+Beginning Test 6
+Task assignments complete
+Total number of rounds: 4
+Task Allocation took 0.0041179656982421875 seconds
+
+
+Total Cost is 692.47 meters
+
+
+Beginning Test 7
+Task assignments complete
+Total number of rounds: 2
+Task Allocation took 0.0019941329956054688 seconds
+
+
+Total Cost is 1095.96 meters
+
+
+Beginning Test 8
+Task assignments complete
+Total number of rounds: 2
+Task Allocation took 0.0019943714141845703 seconds
+
+
+Total Cost is 1332.96 meters
+
+[5073.4346771062355, 1200.0, 1121.9544457292886, 1494.030650891055, 1494.030650891055, 1010.67237178188, 692.470476986462, 1095.9570704645932, 1332.963628312868]

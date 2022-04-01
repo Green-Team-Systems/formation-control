@@ -1,0 +1,186 @@
+{
+    "SettingsVersion": 1.5,
+    "SimMode": "Multirotor",
+    "LogMessagesVisible": true,
+    "ViewMode": "SpringArmChase",
+    "RpcEnabled": true,
+    "EngineSound": true,
+    "SpeedUnitFactor": 1.0,
+    "SpeedUnitLabel": "m/s",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "SimpleFlight",
+
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 2,
+                            "Width": 640,
+                            "Height": 480,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.35,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+                }
+            },
+            "X": 27.0,
+          "Y": 18.0,
+          "Z": -1.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+        },
+        "Drone2": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "AutoCreate": true,
+            "EnableCollisions": true,
+            "AllowAPIAlways": true,
+            "Cameras": {
+                "front_cente": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 2,
+                            "Width": 640,
+                            "Height": 480,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.35,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+                }
+            },
+            "X": 124.0,
+            "Y": -26.0,
+            "Z": -1.0
+        },
+        "Drone3": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "AutoCreate": true,
+            "EnableCollisions": true,
+            "AllowAPIAlways": true,
+            "Cameras": {
+                "front_cente": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 2,
+                            "Width": 640,
+                            "Height": 480,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.35,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+                }
+            },
+            "X": 58.0,
+            "Y": 201.0,
+            "Z": -1.0
+        },
+        "Drone4": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "AutoCreate": true,
+            "EnableCollisions": true,
+            "AllowAPIAlways": true,
+            "Cameras": {
+                "front_cente": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 2,
+                            "Width": 640,
+                            "Height": 480,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.35,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+                }
+            },
+            "X": -5.0,
+            "Y": -4.0,
+            "Z": -1.0
+        },
+        "Drone5": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "AutoCreate": true,
+            "EnableCollisions": true,
+            "AllowAPIAlways": true,
+            "Cameras": {
+                "front_cente": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 2,
+                            "Width": 640,
+                            "Height": 480,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.35,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+                }
+            },
+            "X": 93.0,
+            "Y": 12.0,
+            "Z": -1.0
+        },
+        "Drone6": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "AutoCreate": true,
+            "EnableCollisions": true,
+            "AllowAPIAlways": true,
+            "Cameras": {
+                "front_cente": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 2,
+                            "Width": 640,
+                            "Height": 480,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.35,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0
+                }
+            },
+            "X": 93.0,
+            "Y": 12.0,
+            "Z": -1.0
+        }
+    }
+}

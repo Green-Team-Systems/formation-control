@@ -1,0 +1,2864 @@
+
+Beginning Test 1
+
+Task Allocation took 0.0010237693786621094 seconds
+
+Total Cost is 1200.00 meters
+
+Drone1 goes to target 1
+Drone2 goes to target 2
+Drone3 goes to target 3
+Drone4 goes to target 4
+Drone5 goes to target 5
+Drone6 goes to target 6
+
+Beginning Test 2
+
+Task Allocation took 0.0 seconds
+
+Total Cost is 1121.95 meters
+
+Drone1 goes to target 2
+Drone2 goes to target 1
+Drone3 goes to target 4
+Drone4 goes to target 5
+Drone5 goes to target 6
+Drone6 goes to target 3
+
+Beginning Test 3
+
+Task Allocation took 0.000997304916381836 seconds
+
+Total Cost is 1494.03 meters
+
+Drone1 goes to target 6
+Drone2 goes to target 5
+Drone3 goes to target 4
+Drone4 goes to target 1
+Drone5 goes to target 2
+Drone6 goes to target 3
+
+Beginning Test 4
+
+Task Allocation took 0.0009765625 seconds
+
+Total Cost is 1494.03 meters
+
+Drone1 goes to target 4
+Drone2 goes to target 5
+Drone3 goes to target 6
+Drone4 goes to target 3
+Drone5 goes to target 2
+Drone6 goes to target 1
+
+Beginning Test 5
+
+Task Allocation took 0.0009639263153076172 seconds
+
+Total Cost is 946.47 meters
+
+Drone1 goes to target 1
+Drone2 goes to target 3
+Drone3 goes to target 6
+Drone4 goes to target 2
+Drone5 goes to target 4
+Drone6 goes to target 5
+
+Beginning Test 6
+
+Task Allocation took 0.003962516784667969 seconds
+
+Total Cost is 673.37 meters
+
+Drone1 goes to target 2
+Drone2 goes to target 1
+Drone3 goes to target 3
+Drone4 goes to target 4
+Drone5 goes to target 5
+Drone6 goes to target 6
+
+Beginning Test 7
+
+Task Allocation took 0.0009984970092773438 seconds
+
+Total Cost is 1095.96 meters
+
+Drone1 goes to target 1
+Drone2 goes to target 2
+Drone3 goes to target 6
+Drone4 goes to target 3
+Drone5 goes to target 5
+Drone6 goes to target 4
+
+Beginning Test 8
+
+Task Allocation took 0.0020055770874023438 seconds
+
+Total Cost is 891.67 meters
+
+Drone1 goes to target 2
+Drone2 goes to target 1
+Drone3 goes to target 5
+Drone4 goes to target 6
+Drone5 goes to target 3
+Drone6 goes to target 4
+
+Beginning Test 9
+
+Task Allocation took 0.0029900074005126953 seconds
+
+Total Cost is 1183.28 meters
+
+Drone1 goes to target 4
+Drone2 goes to target 3
+Drone3 goes to target 1
+Drone4 goes to target 2
+Drone5 goes to target 5
+Drone6 goes to target 6
+
+Beginning Test 10
+
+Task Allocation took 0.05186104774475098 seconds
+
+Total Cost is 5191.65 meters
+
+Drone1 goes to target 4
+Drone2 goes to target 13
+Drone3 goes to target 10
+Drone4 goes to target 15
+Drone5 goes to target 2
+Drone6 goes to target 6
+Drone7 goes to target 20
+Drone8 goes to target 8
+Drone9 goes to target 19
+Drone10 goes to target 5
+Drone11 goes to target 11
+Drone12 goes to target 18
+Drone13 goes to target 14
+Drone14 goes to target 17
+Drone15 goes to target 7
+Drone16 goes to target 12
+Drone17 goes to target 9
+Drone18 goes to target 3
+Drone19 goes to target 1
+Drone20 goes to target 16
+
+Beginning Test 11
+
+Task Allocation took 0.09176993370056152 seconds
+
+Total Cost is 7124.83 meters
+
+Drone1 goes to target 20
+Drone2 goes to target 11
+Drone3 goes to target 18
+Drone4 goes to target 13
+Drone5 goes to target 16
+Drone6 goes to target 3
+Drone7 goes to target 22
+Drone8 goes to target 19
+Drone9 goes to target 17
+Drone10 goes to target 10
+Drone11 goes to target 9
+Drone12 goes to target 21
+Drone13 goes to target 5
+Drone14 goes to target 12
+Drone15 goes to target 4
+Drone16 goes to target 7
+Drone17 goes to target 8
+Drone18 goes to target 6
+Drone19 goes to target 1
+Drone20 goes to target 14
+Drone21 goes to target 2
+Drone22 goes to target 15
+
+Beginning Test 12
+
+Task Allocation took 0.13464093208312988 seconds
+
+Total Cost is 9171.60 meters
+
+Drone1 goes to target 4
+Drone2 goes to target 23
+Drone3 goes to target 18
+Drone4 goes to target 24
+Drone5 goes to target 11
+Drone6 goes to target 10
+Drone7 goes to target 19
+Drone8 goes to target 8
+Drone9 goes to target 14
+Drone10 goes to target 22
+Drone11 goes to target 13
+Drone12 goes to target 9
+Drone13 goes to target 2
+Drone14 goes to target 5
+Drone15 goes to target 12
+Drone16 goes to target 3
+Drone17 goes to target 21
+Drone18 goes to target 16
+Drone19 goes to target 20
+Drone20 goes to target 17
+Drone21 goes to target 15
+Drone22 goes to target 6
+Drone23 goes to target 7
+Drone24 goes to target 1
+
+Beginning Test 13
+
+Task Allocation took 0.12868809700012207 seconds
+
+Total Cost is 8238.02 meters
+
+Drone1 goes to target 6
+Drone2 goes to target 23
+Drone3 goes to target 18
+Drone4 goes to target 25
+Drone5 goes to target 13
+Drone6 goes to target 11
+Drone7 goes to target 3
+Drone8 goes to target 22
+Drone9 goes to target 20
+Drone10 goes to target 5
+Drone11 goes to target 16
+Drone12 goes to target 17
+Drone13 goes to target 2
+Drone14 goes to target 21
+Drone15 goes to target 7
+Drone16 goes to target 24
+Drone17 goes to target 15
+Drone18 goes to target 14
+Drone19 goes to target 4
+Drone20 goes to target 1
+Drone21 goes to target 12
+Drone22 goes to target 26
+Drone23 goes to target 10
+Drone24 goes to target 9
+Drone25 goes to target 19
+Drone26 goes to target 8
+
+Beginning Test 14
+
+Task Allocation took 0.37473630905151367 seconds
+
+Total Cost is 9768.44 meters
+
+Drone1 goes to target 8
+Drone2 goes to target 7
+Drone3 goes to target 27
+Drone4 goes to target 5
+Drone5 goes to target 13
+Drone6 goes to target 18
+Drone7 goes to target 2
+Drone8 goes to target 26
+Drone9 goes to target 19
+Drone10 goes to target 16
+Drone11 goes to target 20
+Drone12 goes to target 9
+Drone13 goes to target 21
+Drone14 goes to target 11
+Drone15 goes to target 6
+Drone16 goes to target 24
+Drone17 goes to target 23
+Drone18 goes to target 4
+Drone19 goes to target 3
+Drone20 goes to target 22
+Drone21 goes to target 25
+Drone22 goes to target 1
+Drone23 goes to target 17
+Drone24 goes to target 12
+Drone25 goes to target 14
+Drone26 goes to target 15
+Drone27 goes to target 28
+Drone28 goes to target 10
+
+Beginning Test 15
+
+Task Allocation took 0.28822922706604004 seconds
+
+Total Cost is 9351.71 meters
+
+Drone1 goes to target 3
+Drone2 goes to target 22
+Drone3 goes to target 28
+Drone4 goes to target 4
+Drone5 goes to target 16
+Drone6 goes to target 9
+Drone7 goes to target 12
+Drone8 goes to target 18
+Drone9 goes to target 2
+Drone10 goes to target 11
+Drone11 goes to target 14
+Drone12 goes to target 8
+Drone13 goes to target 6
+Drone14 goes to target 26
+Drone15 goes to target 25
+Drone16 goes to target 15
+Drone17 goes to target 20
+Drone18 goes to target 27
+Drone19 goes to target 30
+Drone20 goes to target 29
+Drone21 goes to target 13
+Drone22 goes to target 17
+Drone23 goes to target 19
+Drone24 goes to target 24
+Drone25 goes to target 7
+Drone26 goes to target 5
+Drone27 goes to target 1
+Drone28 goes to target 10
+Drone29 goes to target 23
+Drone30 goes to target 21
+
+Beginning Test 16
+
+Task Allocation took 0.5026872158050537 seconds
+
+Total Cost is 10603.85 meters
+
+Drone1 goes to target 1
+Drone2 goes to target 31
+Drone3 goes to target 24
+Drone4 goes to target 13
+Drone5 goes to target 32
+Drone6 goes to target 15
+Drone7 goes to target 21
+Drone8 goes to target 17
+Drone9 goes to target 22
+Drone10 goes to target 16
+Drone11 goes to target 3
+Drone12 goes to target 29
+Drone13 goes to target 25
+Drone14 goes to target 9
+Drone15 goes to target 8
+Drone16 goes to target 18
+Drone17 goes to target 10
+Drone18 goes to target 20
+Drone19 goes to target 30
+Drone20 goes to target 23
+Drone21 goes to target 12
+Drone22 goes to target 27
+Drone23 goes to target 5
+Drone24 goes to target 26
+Drone25 goes to target 2
+Drone26 goes to target 14
+Drone27 goes to target 28
+Drone28 goes to target 6
+Drone29 goes to target 4
+Drone30 goes to target 19
+Drone31 goes to target 7
+Drone32 goes to target 11
+
+Beginning Test 17
+
+Task Allocation took 0.386059045791626 seconds
+
+Total Cost is 8857.23 meters
+
+Drone1 goes to target 16
+Drone2 goes to target 30
+Drone3 goes to target 32
+Drone4 goes to target 12
+Drone5 goes to target 23
+Drone6 goes to target 17
+Drone7 goes to target 3
+Drone8 goes to target 4
+Drone9 goes to target 18
+Drone10 goes to target 9
+Drone11 goes to target 6
+Drone12 goes to target 34
+Drone13 goes to target 13
+Drone14 goes to target 8
+Drone15 goes to target 11
+Drone16 goes to target 27
+Drone17 goes to target 7
+Drone18 goes to target 21
+Drone19 goes to target 22
+Drone20 goes to target 1
+Drone21 goes to target 28
+Drone22 goes to target 26
+Drone23 goes to target 29
+Drone24 goes to target 33
+Drone25 goes to target 31
+Drone26 goes to target 14
+Drone27 goes to target 10
+Drone28 goes to target 25
+Drone29 goes to target 15
+Drone30 goes to target 20
+Drone31 goes to target 5
+Drone32 goes to target 19
+Drone33 goes to target 24
+Drone34 goes to target 2
+
+Beginning Test 18
+
+Task Allocation took 0.42138242721557617 seconds
+
+Total Cost is 8329.15 meters
+
+Drone1 goes to target 18
+Drone2 goes to target 30
+Drone3 goes to target 17
+Drone4 goes to target 31
+Drone5 goes to target 23
+Drone6 goes to target 1
+Drone7 goes to target 19
+Drone8 goes to target 7
+Drone9 goes to target 32
+Drone10 goes to target 6
+Drone11 goes to target 21
+Drone12 goes to target 20
+Drone13 goes to target 25
+Drone14 goes to target 36
+Drone15 goes to target 35
+Drone16 goes to target 26
+Drone17 goes to target 28
+Drone18 goes to target 33
+Drone19 goes to target 34
+Drone20 goes to target 4
+Drone21 goes to target 14
+Drone22 goes to target 24
+Drone23 goes to target 2
+Drone24 goes to target 13
+Drone25 goes to target 27
+Drone26 goes to target 8
+Drone27 goes to target 9
+Drone28 goes to target 16
+Drone29 goes to target 29
+Drone30 goes to target 15
+Drone31 goes to target 3
+Drone32 goes to target 22
+Drone33 goes to target 5
+Drone34 goes to target 12
+Drone35 goes to target 10
+Drone36 goes to target 11
+
+Beginning Test 19
+
+Task Allocation took 0.4308474063873291 seconds
+
+Total Cost is 7512.92 meters
+
+Drone1 goes to target 13
+Drone2 goes to target 30
+Drone3 goes to target 27
+Drone4 goes to target 26
+Drone5 goes to target 25
+Drone6 goes to target 24
+Drone7 goes to target 10
+Drone8 goes to target 29
+Drone9 goes to target 20
+Drone10 goes to target 28
+Drone11 goes to target 23
+Drone12 goes to target 34
+Drone13 goes to target 22
+Drone14 goes to target 31
+Drone15 goes to target 17
+Drone16 goes to target 9
+Drone17 goes to target 38
+Drone18 goes to target 16
+Drone19 goes to target 4
+Drone20 goes to target 5
+Drone21 goes to target 6
+Drone22 goes to target 8
+Drone23 goes to target 32
+Drone24 goes to target 3
+Drone25 goes to target 14
+Drone26 goes to target 11
+Drone27 goes to target 2
+Drone28 goes to target 33
+Drone29 goes to target 12
+Drone30 goes to target 35
+Drone31 goes to target 1
+Drone32 goes to target 19
+Drone33 goes to target 15
+Drone34 goes to target 36
+Drone35 goes to target 21
+Drone36 goes to target 37
+Drone37 goes to target 7
+Drone38 goes to target 18
+
+Beginning Test 20
+
+Task Allocation took 1.217207431793213 seconds
+
+Total Cost is 9882.65 meters
+
+Drone1 goes to target 28
+Drone2 goes to target 37
+Drone3 goes to target 26
+Drone4 goes to target 2
+Drone5 goes to target 3
+Drone6 goes to target 31
+Drone7 goes to target 27
+Drone8 goes to target 7
+Drone9 goes to target 17
+Drone10 goes to target 1
+Drone11 goes to target 24
+Drone12 goes to target 10
+Drone13 goes to target 23
+Drone14 goes to target 12
+Drone15 goes to target 14
+Drone16 goes to target 18
+Drone17 goes to target 16
+Drone18 goes to target 25
+Drone19 goes to target 35
+Drone20 goes to target 36
+Drone21 goes to target 15
+Drone22 goes to target 6
+Drone23 goes to target 30
+Drone24 goes to target 39
+Drone25 goes to target 19
+Drone26 goes to target 13
+Drone27 goes to target 9
+Drone28 goes to target 11
+Drone29 goes to target 5
+Drone30 goes to target 29
+Drone31 goes to target 38
+Drone32 goes to target 40
+Drone33 goes to target 34
+Drone34 goes to target 33
+Drone35 goes to target 22
+Drone36 goes to target 32
+Drone37 goes to target 8
+Drone38 goes to target 21
+Drone39 goes to target 4
+Drone40 goes to target 20
+
+Beginning Test 21
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 0.9050021171569824 seconds
+
+Total Cost is 9486.32 meters
+
+Drone1 goes to target 6
+Drone2 goes to target 21
+Drone3 goes to target 5
+Drone4 goes to target 3
+Drone5 goes to target 32
+Drone6 goes to target 8
+Drone7 goes to target 17
+Drone8 goes to target 7
+Drone9 goes to target 24
+Drone10 goes to target 11
+Drone11 goes to target 38
+Drone12 goes to target 39
+Drone13 goes to target 22
+Drone14 goes to target 37
+Drone15 goes to target 18
+Drone16 goes to target 12
+Drone17 goes to target 15
+Drone18 goes to target 20
+Drone19 goes to target 40
+Drone20 goes to target 2
+Drone21 goes to target 19
+Drone22 goes to target 10
+Drone23 goes to target 1
+Drone24 goes to target 26
+Drone25 goes to target 41
+Drone26 goes to target 29
+Drone27 goes to target 4
+Drone28 goes to target 9
+Drone29 goes to target 42
+Drone30 goes to target 34
+Drone31 goes to target 27
+Drone32 goes to target 23
+Drone33 goes to target 28
+Drone34 goes to target 13
+Drone35 goes to target 36
+Drone37 goes to target 31
+Drone38 goes to target 16
+Drone40 goes to target 33
+
+Beginning Test 22
+
+Task Allocation took 1.2904536724090576 seconds
+
+Total Cost is 11649.61 meters
+
+Drone1 goes to target 34
+Drone2 goes to target 5
+Drone3 goes to target 11
+Drone4 goes to target 1
+Drone5 goes to target 30
+Drone6 goes to target 8
+Drone7 goes to target 26
+Drone8 goes to target 22
+Drone9 goes to target 40
+Drone10 goes to target 44
+Drone11 goes to target 3
+Drone12 goes to target 14
+Drone13 goes to target 35
+Drone14 goes to target 32
+Drone15 goes to target 43
+Drone16 goes to target 41
+Drone17 goes to target 42
+Drone18 goes to target 39
+Drone19 goes to target 17
+Drone20 goes to target 21
+Drone21 goes to target 33
+Drone22 goes to target 25
+Drone23 goes to target 10
+Drone24 goes to target 36
+Drone25 goes to target 6
+Drone26 goes to target 38
+Drone27 goes to target 24
+Drone28 goes to target 27
+Drone29 goes to target 9
+Drone30 goes to target 12
+Drone31 goes to target 2
+Drone32 goes to target 23
+Drone33 goes to target 19
+Drone34 goes to target 16
+Drone35 goes to target 13
+Drone36 goes to target 31
+Drone37 goes to target 4
+Drone38 goes to target 18
+Drone39 goes to target 29
+Drone40 goes to target 37
+Drone41 goes to target 7
+Drone42 goes to target 20
+Drone43 goes to target 15
+Drone44 goes to target 28
+
+Beginning Test 23
+
+Task Allocation took 0.8397526741027832 seconds
+
+Total Cost is 8135.88 meters
+
+Drone1 goes to target 24
+Drone2 goes to target 16
+Drone3 goes to target 18
+Drone4 goes to target 1
+Drone5 goes to target 37
+Drone6 goes to target 32
+Drone7 goes to target 21
+Drone8 goes to target 30
+Drone9 goes to target 19
+Drone10 goes to target 25
+Drone11 goes to target 31
+Drone12 goes to target 10
+Drone13 goes to target 36
+Drone14 goes to target 13
+Drone15 goes to target 28
+Drone16 goes to target 11
+Drone17 goes to target 12
+Drone18 goes to target 34
+Drone19 goes to target 4
+Drone20 goes to target 15
+Drone21 goes to target 43
+Drone22 goes to target 33
+Drone23 goes to target 29
+Drone24 goes to target 46
+Drone25 goes to target 27
+Drone26 goes to target 22
+Drone27 goes to target 44
+Drone28 goes to target 3
+Drone29 goes to target 23
+Drone30 goes to target 26
+Drone31 goes to target 9
+Drone32 goes to target 40
+Drone33 goes to target 35
+Drone34 goes to target 8
+Drone35 goes to target 38
+Drone36 goes to target 20
+Drone37 goes to target 6
+Drone38 goes to target 5
+Drone39 goes to target 14
+Drone40 goes to target 17
+Drone41 goes to target 41
+Drone42 goes to target 45
+Drone43 goes to target 2
+Drone44 goes to target 42
+Drone45 goes to target 39
+Drone46 goes to target 7
+
+Beginning Test 24
+
+Task Allocation took 0.9665553569793701 seconds
+
+Total Cost is 9138.31 meters
+
+Drone1 goes to target 20
+Drone2 goes to target 44
+Drone3 goes to target 25
+Drone4 goes to target 48
+Drone5 goes to target 42
+Drone6 goes to target 33
+Drone7 goes to target 35
+Drone8 goes to target 38
+Drone9 goes to target 15
+Drone10 goes to target 29
+Drone11 goes to target 23
+Drone12 goes to target 27
+Drone13 goes to target 2
+Drone14 goes to target 43
+Drone15 goes to target 34
+Drone16 goes to target 22
+Drone17 goes to target 11
+Drone18 goes to target 30
+Drone19 goes to target 17
+Drone20 goes to target 7
+Drone21 goes to target 19
+Drone22 goes to target 14
+Drone23 goes to target 1
+Drone24 goes to target 37
+Drone25 goes to target 36
+Drone26 goes to target 32
+Drone27 goes to target 47
+Drone28 goes to target 5
+Drone29 goes to target 24
+Drone30 goes to target 6
+Drone31 goes to target 39
+Drone32 goes to target 10
+Drone33 goes to target 8
+Drone34 goes to target 13
+Drone35 goes to target 26
+Drone36 goes to target 28
+Drone37 goes to target 45
+Drone38 goes to target 46
+Drone39 goes to target 16
+Drone40 goes to target 31
+Drone41 goes to target 21
+Drone42 goes to target 40
+Drone43 goes to target 9
+Drone44 goes to target 4
+Drone45 goes to target 18
+Drone46 goes to target 3
+Drone47 goes to target 41
+Drone48 goes to target 12
+
+Beginning Test 25
+
+Task Allocation took 1.3648176193237305 seconds
+
+Total Cost is 9610.41 meters
+
+Drone1 goes to target 14
+Drone2 goes to target 5
+Drone3 goes to target 21
+Drone4 goes to target 24
+Drone5 goes to target 29
+Drone6 goes to target 23
+Drone7 goes to target 1
+Drone8 goes to target 49
+Drone9 goes to target 42
+Drone10 goes to target 37
+Drone11 goes to target 27
+Drone12 goes to target 40
+Drone13 goes to target 50
+Drone14 goes to target 28
+Drone15 goes to target 20
+Drone16 goes to target 34
+Drone17 goes to target 25
+Drone18 goes to target 32
+Drone19 goes to target 6
+Drone20 goes to target 36
+Drone21 goes to target 13
+Drone22 goes to target 12
+Drone23 goes to target 47
+Drone24 goes to target 30
+Drone25 goes to target 2
+Drone26 goes to target 31
+Drone27 goes to target 18
+Drone28 goes to target 11
+Drone29 goes to target 16
+Drone30 goes to target 35
+Drone31 goes to target 43
+Drone32 goes to target 8
+Drone33 goes to target 46
+Drone34 goes to target 17
+Drone35 goes to target 4
+Drone36 goes to target 33
+Drone37 goes to target 39
+Drone38 goes to target 38
+Drone39 goes to target 19
+Drone40 goes to target 9
+Drone41 goes to target 26
+Drone42 goes to target 45
+Drone43 goes to target 15
+Drone44 goes to target 41
+Drone45 goes to target 7
+Drone46 goes to target 48
+Drone47 goes to target 22
+Drone48 goes to target 44
+Drone49 goes to target 10
+Drone50 goes to target 3
+
+Beginning Test 26
+
+Task Allocation took 1.7709193229675293 seconds
+
+Total Cost is 11209.97 meters
+
+Drone1 goes to target 30
+Drone2 goes to target 22
+Drone3 goes to target 31
+Drone4 goes to target 1
+Drone5 goes to target 39
+Drone6 goes to target 52
+Drone7 goes to target 28
+Drone8 goes to target 36
+Drone9 goes to target 44
+Drone10 goes to target 24
+Drone11 goes to target 12
+Drone12 goes to target 42
+Drone13 goes to target 38
+Drone14 goes to target 10
+Drone15 goes to target 29
+Drone16 goes to target 25
+Drone17 goes to target 15
+Drone18 goes to target 3
+Drone19 goes to target 7
+Drone20 goes to target 4
+Drone21 goes to target 35
+Drone22 goes to target 5
+Drone23 goes to target 11
+Drone24 goes to target 41
+Drone25 goes to target 13
+Drone26 goes to target 9
+Drone27 goes to target 48
+Drone28 goes to target 8
+Drone29 goes to target 14
+Drone30 goes to target 49
+Drone31 goes to target 51
+Drone32 goes to target 16
+Drone33 goes to target 34
+Drone34 goes to target 37
+Drone35 goes to target 27
+Drone36 goes to target 26
+Drone37 goes to target 50
+Drone38 goes to target 32
+Drone39 goes to target 40
+Drone40 goes to target 45
+Drone41 goes to target 17
+Drone42 goes to target 23
+Drone43 goes to target 2
+Drone44 goes to target 47
+Drone45 goes to target 21
+Drone46 goes to target 43
+Drone47 goes to target 6
+Drone48 goes to target 46
+Drone49 goes to target 19
+Drone50 goes to target 20
+Drone51 goes to target 18
+Drone52 goes to target 33
+
+Beginning Test 27
+
+Task Allocation took 1.259814739227295 seconds
+
+Total Cost is 9645.35 meters
+
+Drone1 goes to target 18
+Drone2 goes to target 8
+Drone3 goes to target 36
+Drone4 goes to target 28
+Drone5 goes to target 52
+Drone6 goes to target 12
+Drone7 goes to target 32
+Drone8 goes to target 26
+Drone9 goes to target 33
+Drone10 goes to target 14
+Drone11 goes to target 42
+Drone12 goes to target 45
+Drone13 goes to target 31
+Drone14 goes to target 38
+Drone15 goes to target 25
+Drone16 goes to target 30
+Drone17 goes to target 46
+Drone18 goes to target 1
+Drone19 goes to target 44
+Drone20 goes to target 37
+Drone21 goes to target 19
+Drone22 goes to target 16
+Drone23 goes to target 21
+Drone24 goes to target 53
+Drone25 goes to target 23
+Drone26 goes to target 41
+Drone27 goes to target 54
+Drone28 goes to target 11
+Drone29 goes to target 20
+Drone30 goes to target 49
+Drone31 goes to target 24
+Drone32 goes to target 7
+Drone33 goes to target 4
+Drone34 goes to target 17
+Drone35 goes to target 50
+Drone36 goes to target 51
+Drone37 goes to target 13
+Drone38 goes to target 34
+Drone39 goes to target 29
+Drone40 goes to target 35
+Drone41 goes to target 47
+Drone42 goes to target 43
+Drone43 goes to target 10
+Drone44 goes to target 15
+Drone45 goes to target 40
+Drone46 goes to target 9
+Drone47 goes to target 39
+Drone48 goes to target 27
+Drone49 goes to target 6
+Drone50 goes to target 2
+Drone51 goes to target 48
+Drone52 goes to target 3
+Drone53 goes to target 22
+Drone54 goes to target 5
+
+Beginning Test 28
+
+Task Allocation took 1.4348583221435547 seconds
+
+Total Cost is 10562.40 meters
+
+Drone1 goes to target 41
+Drone2 goes to target 22
+Drone3 goes to target 28
+Drone4 goes to target 44
+Drone5 goes to target 34
+Drone6 goes to target 39
+Drone7 goes to target 25
+Drone8 goes to target 3
+Drone9 goes to target 46
+Drone10 goes to target 14
+Drone11 goes to target 6
+Drone12 goes to target 7
+Drone13 goes to target 55
+Drone14 goes to target 56
+Drone15 goes to target 37
+Drone16 goes to target 40
+Drone17 goes to target 35
+Drone18 goes to target 51
+Drone19 goes to target 12
+Drone20 goes to target 24
+Drone21 goes to target 17
+Drone22 goes to target 20
+Drone23 goes to target 50
+Drone24 goes to target 33
+Drone25 goes to target 11
+Drone26 goes to target 32
+Drone27 goes to target 36
+Drone28 goes to target 52
+Drone29 goes to target 10
+Drone30 goes to target 1
+Drone31 goes to target 53
+Drone32 goes to target 47
+Drone33 goes to target 31
+Drone34 goes to target 29
+Drone35 goes to target 48
+Drone36 goes to target 13
+Drone37 goes to target 9
+Drone38 goes to target 2
+Drone39 goes to target 54
+Drone40 goes to target 23
+Drone41 goes to target 5
+Drone42 goes to target 21
+Drone43 goes to target 15
+Drone44 goes to target 19
+Drone45 goes to target 26
+Drone46 goes to target 43
+Drone47 goes to target 45
+Drone48 goes to target 8
+Drone49 goes to target 27
+Drone50 goes to target 4
+Drone51 goes to target 16
+Drone52 goes to target 38
+Drone53 goes to target 18
+Drone54 goes to target 42
+Drone55 goes to target 30
+Drone56 goes to target 49
+
+Beginning Test 29
+
+Task Allocation took 2.590829849243164 seconds
+
+Total Cost is 10645.55 meters
+
+Drone1 goes to target 15
+Drone2 goes to target 37
+Drone3 goes to target 13
+Drone4 goes to target 45
+Drone5 goes to target 26
+Drone6 goes to target 48
+Drone7 goes to target 36
+Drone8 goes to target 57
+Drone9 goes to target 17
+Drone10 goes to target 43
+Drone11 goes to target 46
+Drone12 goes to target 22
+Drone13 goes to target 58
+Drone14 goes to target 31
+Drone15 goes to target 11
+Drone16 goes to target 28
+Drone17 goes to target 12
+Drone18 goes to target 40
+Drone19 goes to target 1
+Drone20 goes to target 50
+Drone21 goes to target 24
+Drone22 goes to target 41
+Drone23 goes to target 53
+Drone24 goes to target 6
+Drone25 goes to target 54
+Drone26 goes to target 42
+Drone27 goes to target 21
+Drone28 goes to target 55
+Drone29 goes to target 32
+Drone30 goes to target 33
+Drone31 goes to target 30
+Drone32 goes to target 4
+Drone33 goes to target 39
+Drone34 goes to target 10
+Drone35 goes to target 34
+Drone36 goes to target 49
+Drone37 goes to target 18
+Drone38 goes to target 3
+Drone39 goes to target 2
+Drone40 goes to target 16
+Drone41 goes to target 44
+Drone42 goes to target 35
+Drone43 goes to target 29
+Drone44 goes to target 52
+Drone45 goes to target 7
+Drone46 goes to target 27
+Drone47 goes to target 38
+Drone48 goes to target 14
+Drone49 goes to target 19
+Drone50 goes to target 56
+Drone51 goes to target 9
+Drone52 goes to target 47
+Drone53 goes to target 51
+Drone54 goes to target 20
+Drone55 goes to target 23
+Drone56 goes to target 8
+Drone57 goes to target 25
+Drone58 goes to target 5
+
+Beginning Test 30
+
+Task Allocation took 3.0334243774414062 seconds
+
+Total Cost is 11467.66 meters
+
+Drone1 goes to target 40
+Drone2 goes to target 37
+Drone3 goes to target 38
+Drone4 goes to target 23
+Drone5 goes to target 14
+Drone6 goes to target 47
+Drone7 goes to target 29
+Drone8 goes to target 17
+Drone9 goes to target 59
+Drone10 goes to target 49
+Drone11 goes to target 8
+Drone12 goes to target 54
+Drone13 goes to target 41
+Drone14 goes to target 1
+Drone15 goes to target 28
+Drone16 goes to target 22
+Drone17 goes to target 34
+Drone18 goes to target 57
+Drone19 goes to target 3
+Drone20 goes to target 39
+Drone21 goes to target 2
+Drone22 goes to target 21
+Drone23 goes to target 30
+Drone24 goes to target 55
+Drone25 goes to target 56
+Drone26 goes to target 26
+Drone27 goes to target 18
+Drone28 goes to target 12
+Drone29 goes to target 11
+Drone30 goes to target 19
+Drone31 goes to target 51
+Drone32 goes to target 20
+Drone33 goes to target 52
+Drone34 goes to target 35
+Drone35 goes to target 31
+Drone36 goes to target 25
+Drone37 goes to target 27
+Drone38 goes to target 45
+Drone39 goes to target 16
+Drone40 goes to target 24
+Drone41 goes to target 48
+Drone42 goes to target 32
+Drone43 goes to target 42
+Drone44 goes to target 9
+Drone45 goes to target 33
+Drone46 goes to target 60
+Drone47 goes to target 13
+Drone48 goes to target 53
+Drone49 goes to target 36
+Drone50 goes to target 6
+Drone51 goes to target 5
+Drone52 goes to target 50
+Drone53 goes to target 58
+Drone54 goes to target 7
+Drone55 goes to target 15
+Drone56 goes to target 44
+Drone57 goes to target 46
+Drone58 goes to target 10
+Drone59 goes to target 43
+Drone60 goes to target 4
+
+Beginning Test 31
+ERROR: assignment not found!!
+
+Task Allocation took 3.249911069869995 seconds
+
+Total Cost is 10602.57 meters
+
+Drone1 goes to target 33
+Drone2 goes to target 61
+Drone3 goes to target 28
+Drone4 goes to target 46
+Drone5 goes to target 48
+Drone6 goes to target 44
+Drone7 goes to target 4
+Drone8 goes to target 36
+Drone9 goes to target 12
+Drone10 goes to target 37
+Drone11 goes to target 30
+Drone12 goes to target 54
+Drone13 goes to target 57
+Drone14 goes to target 17
+Drone15 goes to target 32
+Drone16 goes to target 24
+Drone17 goes to target 11
+Drone18 goes to target 8
+Drone19 goes to target 1
+Drone20 goes to target 34
+Drone21 goes to target 22
+Drone22 goes to target 14
+Drone23 goes to target 9
+Drone24 goes to target 43
+Drone25 goes to target 60
+Drone26 goes to target 27
+Drone28 goes to target 5
+Drone29 goes to target 25
+Drone30 goes to target 23
+Drone31 goes to target 45
+Drone32 goes to target 26
+Drone33 goes to target 15
+Drone34 goes to target 49
+Drone35 goes to target 40
+Drone36 goes to target 2
+Drone37 goes to target 41
+Drone38 goes to target 51
+Drone39 goes to target 38
+Drone40 goes to target 19
+Drone41 goes to target 59
+Drone42 goes to target 21
+Drone43 goes to target 53
+Drone44 goes to target 13
+Drone45 goes to target 10
+Drone46 goes to target 20
+Drone47 goes to target 3
+Drone48 goes to target 29
+Drone49 goes to target 56
+Drone50 goes to target 35
+Drone51 goes to target 31
+Drone52 goes to target 6
+Drone53 goes to target 7
+Drone54 goes to target 42
+Drone55 goes to target 47
+Drone56 goes to target 55
+Drone57 goes to target 58
+Drone58 goes to target 62
+Drone59 goes to target 16
+Drone60 goes to target 52
+Drone61 goes to target 50
+Drone62 goes to target 39
+
+Beginning Test 32
+ERROR: assignment not found!!
+
+Task Allocation took 2.1072490215301514 seconds
+
+Total Cost is 9163.49 meters
+
+Drone1 goes to target 54
+Drone2 goes to target 17
+Drone3 goes to target 29
+Drone4 goes to target 2
+Drone5 goes to target 59
+Drone6 goes to target 49
+Drone7 goes to target 31
+Drone8 goes to target 53
+Drone9 goes to target 21
+Drone10 goes to target 60
+Drone11 goes to target 41
+Drone12 goes to target 11
+Drone13 goes to target 35
+Drone14 goes to target 57
+Drone15 goes to target 6
+Drone16 goes to target 46
+Drone17 goes to target 39
+Drone18 goes to target 9
+Drone19 goes to target 10
+Drone20 goes to target 58
+Drone21 goes to target 1
+Drone22 goes to target 55
+Drone23 goes to target 50
+Drone24 goes to target 12
+Drone25 goes to target 42
+Drone26 goes to target 48
+Drone27 goes to target 23
+Drone28 goes to target 52
+Drone29 goes to target 44
+Drone30 goes to target 27
+Drone31 goes to target 34
+Drone32 goes to target 18
+Drone33 goes to target 38
+Drone34 goes to target 47
+Drone35 goes to target 56
+Drone36 goes to target 22
+Drone37 goes to target 40
+Drone38 goes to target 4
+Drone39 goes to target 62
+Drone40 goes to target 43
+Drone41 goes to target 5
+Drone42 goes to target 37
+Drone43 goes to target 7
+Drone44 goes to target 51
+Drone45 goes to target 14
+Drone46 goes to target 33
+Drone47 goes to target 25
+Drone48 goes to target 26
+Drone49 goes to target 63
+Drone50 goes to target 24
+Drone51 goes to target 15
+Drone52 goes to target 30
+Drone53 goes to target 8
+Drone54 goes to target 20
+Drone55 goes to target 61
+Drone57 goes to target 16
+Drone58 goes to target 36
+Drone59 goes to target 3
+Drone60 goes to target 45
+Drone61 goes to target 19
+Drone62 goes to target 32
+Drone63 goes to target 28
+Drone64 goes to target 13
+
+Beginning Test 33
+
+Task Allocation took 4.4968767166137695 seconds
+
+Total Cost is 15805.43 meters
+
+Drone1 goes to target 46
+Drone2 goes to target 26
+Drone3 goes to target 12
+Drone4 goes to target 63
+Drone5 goes to target 60
+Drone6 goes to target 9
+Drone7 goes to target 18
+Drone8 goes to target 15
+Drone9 goes to target 48
+Drone10 goes to target 7
+Drone11 goes to target 14
+Drone12 goes to target 11
+Drone13 goes to target 22
+Drone14 goes to target 8
+Drone15 goes to target 19
+Drone16 goes to target 57
+Drone17 goes to target 62
+Drone18 goes to target 50
+Drone19 goes to target 16
+Drone20 goes to target 24
+Drone21 goes to target 17
+Drone22 goes to target 25
+Drone23 goes to target 13
+Drone24 goes to target 47
+Drone25 goes to target 29
+Drone26 goes to target 56
+Drone27 goes to target 43
+Drone28 goes to target 34
+Drone29 goes to target 27
+Drone30 goes to target 5
+Drone31 goes to target 10
+Drone32 goes to target 52
+Drone33 goes to target 1
+Drone34 goes to target 54
+Drone35 goes to target 41
+Drone36 goes to target 23
+Drone37 goes to target 53
+Drone38 goes to target 65
+Drone39 goes to target 21
+Drone40 goes to target 37
+Drone41 goes to target 44
+Drone42 goes to target 36
+Drone43 goes to target 64
+Drone44 goes to target 20
+Drone45 goes to target 49
+Drone46 goes to target 35
+Drone47 goes to target 39
+Drone48 goes to target 30
+Drone49 goes to target 61
+Drone50 goes to target 59
+Drone51 goes to target 66
+Drone52 goes to target 42
+Drone53 goes to target 28
+Drone54 goes to target 51
+Drone55 goes to target 33
+Drone56 goes to target 45
+Drone57 goes to target 4
+Drone58 goes to target 58
+Drone59 goes to target 3
+Drone60 goes to target 2
+Drone61 goes to target 31
+Drone62 goes to target 32
+Drone63 goes to target 38
+Drone64 goes to target 6
+Drone65 goes to target 40
+Drone66 goes to target 55
+
+Beginning Test 34
+ERROR: assignment not found!!
+
+Task Allocation took 3.6416497230529785 seconds
+
+Total Cost is 10719.44 meters
+
+Drone1 goes to target 32
+Drone2 goes to target 30
+Drone3 goes to target 55
+Drone4 goes to target 4
+Drone5 goes to target 16
+Drone6 goes to target 9
+Drone7 goes to target 65
+Drone8 goes to target 7
+Drone9 goes to target 14
+Drone10 goes to target 56
+Drone11 goes to target 20
+Drone12 goes to target 49
+Drone13 goes to target 61
+Drone14 goes to target 45
+Drone15 goes to target 19
+Drone16 goes to target 40
+Drone17 goes to target 60
+Drone18 goes to target 6
+Drone19 goes to target 22
+Drone20 goes to target 50
+Drone21 goes to target 46
+Drone22 goes to target 15
+Drone23 goes to target 28
+Drone24 goes to target 1
+Drone25 goes to target 38
+Drone26 goes to target 47
+Drone27 goes to target 31
+Drone28 goes to target 48
+Drone29 goes to target 67
+Drone30 goes to target 25
+Drone31 goes to target 21
+Drone32 goes to target 3
+Drone33 goes to target 11
+Drone34 goes to target 8
+Drone35 goes to target 59
+Drone36 goes to target 26
+Drone37 goes to target 23
+Drone38 goes to target 36
+Drone39 goes to target 58
+Drone40 goes to target 39
+Drone41 goes to target 68
+Drone42 goes to target 43
+Drone43 goes to target 24
+Drone44 goes to target 57
+Drone45 goes to target 42
+Drone46 goes to target 54
+Drone47 goes to target 27
+Drone48 goes to target 10
+Drone49 goes to target 66
+Drone50 goes to target 62
+Drone51 goes to target 18
+Drone52 goes to target 29
+Drone53 goes to target 2
+Drone54 goes to target 5
+Drone55 goes to target 17
+Drone56 goes to target 64
+Drone57 goes to target 52
+Drone58 goes to target 51
+Drone59 goes to target 44
+Drone61 goes to target 13
+Drone62 goes to target 37
+Drone63 goes to target 41
+Drone64 goes to target 34
+Drone65 goes to target 53
+Drone66 goes to target 12
+Drone67 goes to target 35
+Drone68 goes to target 33
+
+Beginning Test 35
+ERROR: assignment not found!!
+
+Task Allocation took 3.894421100616455 seconds
+
+Total Cost is 12160.35 meters
+
+Drone1 goes to target 27
+Drone2 goes to target 2
+Drone3 goes to target 29
+Drone4 goes to target 69
+Drone5 goes to target 3
+Drone6 goes to target 39
+Drone7 goes to target 38
+Drone8 goes to target 44
+Drone9 goes to target 59
+Drone10 goes to target 42
+Drone12 goes to target 30
+Drone13 goes to target 40
+Drone14 goes to target 16
+Drone15 goes to target 46
+Drone16 goes to target 56
+Drone17 goes to target 53
+Drone18 goes to target 63
+Drone19 goes to target 50
+Drone20 goes to target 55
+Drone21 goes to target 5
+Drone22 goes to target 15
+Drone23 goes to target 51
+Drone24 goes to target 31
+Drone25 goes to target 9
+Drone26 goes to target 34
+Drone27 goes to target 48
+Drone28 goes to target 6
+Drone29 goes to target 65
+Drone30 goes to target 23
+Drone31 goes to target 1
+Drone32 goes to target 17
+Drone33 goes to target 25
+Drone34 goes to target 58
+Drone35 goes to target 14
+Drone36 goes to target 60
+Drone37 goes to target 70
+Drone38 goes to target 28
+Drone39 goes to target 4
+Drone40 goes to target 45
+Drone41 goes to target 10
+Drone42 goes to target 24
+Drone43 goes to target 52
+Drone44 goes to target 19
+Drone45 goes to target 43
+Drone46 goes to target 47
+Drone47 goes to target 35
+Drone48 goes to target 57
+Drone49 goes to target 49
+Drone50 goes to target 12
+Drone51 goes to target 62
+Drone52 goes to target 8
+Drone53 goes to target 33
+Drone54 goes to target 26
+Drone55 goes to target 66
+Drone56 goes to target 7
+Drone57 goes to target 22
+Drone58 goes to target 21
+Drone59 goes to target 32
+Drone60 goes to target 18
+Drone61 goes to target 67
+Drone62 goes to target 13
+Drone63 goes to target 11
+Drone64 goes to target 54
+Drone65 goes to target 64
+Drone66 goes to target 20
+Drone67 goes to target 61
+Drone68 goes to target 41
+Drone69 goes to target 36
+Drone70 goes to target 68
+
+Beginning Test 36
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 2.6044445037841797 seconds
+
+Total Cost is 8688.00 meters
+
+Drone1 goes to target 55
+Drone2 goes to target 20
+Drone3 goes to target 14
+Drone4 goes to target 17
+Drone5 goes to target 18
+Drone6 goes to target 61
+Drone7 goes to target 13
+Drone8 goes to target 46
+Drone9 goes to target 32
+Drone10 goes to target 7
+Drone11 goes to target 34
+Drone12 goes to target 62
+Drone13 goes to target 68
+Drone14 goes to target 66
+Drone15 goes to target 9
+Drone16 goes to target 15
+Drone17 goes to target 42
+Drone18 goes to target 33
+Drone19 goes to target 21
+Drone20 goes to target 19
+Drone21 goes to target 51
+Drone22 goes to target 60
+Drone23 goes to target 1
+Drone24 goes to target 27
+Drone25 goes to target 57
+Drone26 goes to target 44
+Drone27 goes to target 63
+Drone28 goes to target 10
+Drone29 goes to target 43
+Drone30 goes to target 24
+Drone32 goes to target 3
+Drone33 goes to target 31
+Drone34 goes to target 26
+Drone35 goes to target 45
+Drone36 goes to target 8
+Drone37 goes to target 53
+Drone38 goes to target 56
+Drone39 goes to target 35
+Drone40 goes to target 54
+Drone41 goes to target 28
+Drone42 goes to target 40
+Drone43 goes to target 47
+Drone44 goes to target 12
+Drone45 goes to target 49
+Drone46 goes to target 70
+Drone47 goes to target 50
+Drone48 goes to target 23
+Drone49 goes to target 4
+Drone50 goes to target 65
+Drone51 goes to target 67
+Drone53 goes to target 71
+Drone54 goes to target 11
+Drone55 goes to target 39
+Drone56 goes to target 5
+Drone57 goes to target 52
+Drone58 goes to target 29
+Drone59 goes to target 41
+Drone60 goes to target 2
+Drone61 goes to target 36
+Drone62 goes to target 37
+Drone63 goes to target 6
+Drone64 goes to target 16
+Drone65 goes to target 30
+Drone66 goes to target 22
+Drone67 goes to target 69
+Drone68 goes to target 38
+Drone69 goes to target 58
+Drone71 goes to target 48
+
+Beginning Test 37
+
+Task Allocation took 4.642001628875732 seconds
+
+Total Cost is 12573.97 meters
+
+Drone1 goes to target 1
+Drone2 goes to target 9
+Drone3 goes to target 49
+Drone4 goes to target 54
+Drone5 goes to target 59
+Drone6 goes to target 23
+Drone7 goes to target 73
+Drone8 goes to target 5
+Drone9 goes to target 14
+Drone10 goes to target 29
+Drone11 goes to target 57
+Drone12 goes to target 65
+Drone13 goes to target 22
+Drone14 goes to target 61
+Drone15 goes to target 71
+Drone16 goes to target 50
+Drone17 goes to target 20
+Drone18 goes to target 45
+Drone19 goes to target 12
+Drone20 goes to target 2
+Drone21 goes to target 31
+Drone22 goes to target 39
+Drone23 goes to target 24
+Drone24 goes to target 60
+Drone25 goes to target 67
+Drone26 goes to target 70
+Drone27 goes to target 48
+Drone28 goes to target 30
+Drone29 goes to target 18
+Drone30 goes to target 21
+Drone31 goes to target 3
+Drone32 goes to target 64
+Drone33 goes to target 4
+Drone34 goes to target 13
+Drone35 goes to target 47
+Drone36 goes to target 51
+Drone37 goes to target 56
+Drone38 goes to target 15
+Drone39 goes to target 25
+Drone40 goes to target 40
+Drone41 goes to target 69
+Drone42 goes to target 10
+Drone43 goes to target 38
+Drone44 goes to target 63
+Drone45 goes to target 8
+Drone46 goes to target 6
+Drone47 goes to target 35
+Drone48 goes to target 34
+Drone49 goes to target 55
+Drone50 goes to target 37
+Drone51 goes to target 33
+Drone52 goes to target 11
+Drone53 goes to target 26
+Drone54 goes to target 44
+Drone55 goes to target 17
+Drone56 goes to target 52
+Drone57 goes to target 43
+Drone58 goes to target 74
+Drone59 goes to target 58
+Drone60 goes to target 27
+Drone61 goes to target 36
+Drone62 goes to target 32
+Drone63 goes to target 68
+Drone64 goes to target 28
+Drone65 goes to target 42
+Drone66 goes to target 72
+Drone67 goes to target 53
+Drone68 goes to target 19
+Drone69 goes to target 41
+Drone70 goes to target 7
+Drone71 goes to target 46
+Drone72 goes to target 16
+Drone73 goes to target 66
+Drone74 goes to target 62
+
+Beginning Test 38
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 4.180307149887085 seconds
+
+Total Cost is 10249.85 meters
+
+Drone1 goes to target 76
+Drone2 goes to target 17
+Drone3 goes to target 12
+Drone4 goes to target 7
+Drone5 goes to target 62
+Drone6 goes to target 16
+Drone7 goes to target 18
+Drone8 goes to target 52
+Drone9 goes to target 49
+Drone10 goes to target 13
+Drone11 goes to target 21
+Drone12 goes to target 3
+Drone13 goes to target 8
+Drone14 goes to target 2
+Drone15 goes to target 19
+Drone16 goes to target 36
+Drone17 goes to target 20
+Drone18 goes to target 57
+Drone19 goes to target 35
+Drone20 goes to target 44
+Drone21 goes to target 23
+Drone22 goes to target 29
+Drone23 goes to target 27
+Drone25 goes to target 74
+Drone26 goes to target 15
+Drone27 goes to target 34
+Drone28 goes to target 51
+Drone29 goes to target 71
+Drone30 goes to target 56
+Drone31 goes to target 33
+Drone32 goes to target 31
+Drone33 goes to target 45
+Drone34 goes to target 25
+Drone35 goes to target 54
+Drone36 goes to target 67
+Drone37 goes to target 46
+Drone38 goes to target 70
+Drone39 goes to target 4
+Drone40 goes to target 73
+Drone41 goes to target 32
+Drone42 goes to target 75
+Drone43 goes to target 58
+Drone44 goes to target 11
+Drone45 goes to target 6
+Drone46 goes to target 26
+Drone47 goes to target 38
+Drone48 goes to target 5
+Drone49 goes to target 59
+Drone50 goes to target 14
+Drone51 goes to target 64
+Drone52 goes to target 65
+Drone53 goes to target 48
+Drone54 goes to target 66
+Drone57 goes to target 9
+Drone59 goes to target 43
+Drone60 goes to target 1
+Drone61 goes to target 22
+Drone62 goes to target 47
+Drone63 goes to target 10
+Drone64 goes to target 37
+Drone65 goes to target 69
+Drone66 goes to target 68
+Drone67 goes to target 72
+Drone68 goes to target 53
+Drone69 goes to target 61
+Drone70 goes to target 24
+Drone71 goes to target 55
+Drone72 goes to target 30
+Drone74 goes to target 41
+Drone76 goes to target 60
+
+Beginning Test 39
+ERROR: assignment not found!!
+
+Task Allocation took 6.55232048034668 seconds
+
+Total Cost is 13401.61 meters
+
+Drone1 goes to target 10
+Drone2 goes to target 11
+Drone3 goes to target 9
+Drone4 goes to target 4
+Drone5 goes to target 43
+Drone6 goes to target 45
+Drone7 goes to target 67
+Drone8 goes to target 70
+Drone9 goes to target 3
+Drone10 goes to target 77
+Drone11 goes to target 29
+Drone12 goes to target 51
+Drone13 goes to target 18
+Drone14 goes to target 61
+Drone15 goes to target 20
+Drone16 goes to target 66
+Drone17 goes to target 68
+Drone18 goes to target 75
+Drone19 goes to target 55
+Drone20 goes to target 26
+Drone21 goes to target 60
+Drone22 goes to target 62
+Drone23 goes to target 56
+Drone24 goes to target 74
+Drone25 goes to target 71
+Drone26 goes to target 1
+Drone27 goes to target 15
+Drone28 goes to target 33
+Drone29 goes to target 72
+Drone30 goes to target 53
+Drone31 goes to target 21
+Drone32 goes to target 42
+Drone33 goes to target 17
+Drone34 goes to target 57
+Drone35 goes to target 19
+Drone36 goes to target 13
+Drone37 goes to target 52
+Drone38 goes to target 64
+Drone39 goes to target 48
+Drone40 goes to target 50
+Drone41 goes to target 78
+Drone42 goes to target 27
+Drone43 goes to target 24
+Drone44 goes to target 35
+Drone45 goes to target 44
+Drone46 goes to target 54
+Drone47 goes to target 59
+Drone48 goes to target 30
+Drone49 goes to target 76
+Drone50 goes to target 63
+Drone51 goes to target 16
+Drone52 goes to target 69
+Drone53 goes to target 46
+Drone54 goes to target 28
+Drone55 goes to target 23
+Drone56 goes to target 32
+Drone57 goes to target 7
+Drone58 goes to target 37
+Drone59 goes to target 14
+Drone61 goes to target 34
+Drone62 goes to target 22
+Drone63 goes to target 39
+Drone64 goes to target 6
+Drone65 goes to target 8
+Drone66 goes to target 5
+Drone67 goes to target 12
+Drone68 goes to target 58
+Drone69 goes to target 40
+Drone70 goes to target 25
+Drone71 goes to target 49
+Drone72 goes to target 31
+Drone73 goes to target 73
+Drone74 goes to target 65
+Drone75 goes to target 47
+Drone76 goes to target 36
+Drone77 goes to target 38
+Drone78 goes to target 2
+
+Beginning Test 40
+
+Task Allocation took 7.529036045074463 seconds
+
+Total Cost is 14871.94 meters
+
+Drone1 goes to target 71
+Drone2 goes to target 37
+Drone3 goes to target 3
+Drone4 goes to target 16
+Drone5 goes to target 68
+Drone6 goes to target 53
+Drone7 goes to target 62
+Drone8 goes to target 36
+Drone9 goes to target 51
+Drone10 goes to target 1
+Drone11 goes to target 63
+Drone12 goes to target 26
+Drone13 goes to target 5
+Drone14 goes to target 23
+Drone15 goes to target 38
+Drone16 goes to target 24
+Drone17 goes to target 42
+Drone18 goes to target 27
+Drone19 goes to target 58
+Drone20 goes to target 4
+Drone21 goes to target 50
+Drone22 goes to target 66
+Drone23 goes to target 44
+Drone24 goes to target 67
+Drone25 goes to target 74
+Drone26 goes to target 47
+Drone27 goes to target 7
+Drone28 goes to target 18
+Drone29 goes to target 6
+Drone30 goes to target 56
+Drone31 goes to target 19
+Drone32 goes to target 15
+Drone33 goes to target 13
+Drone34 goes to target 30
+Drone35 goes to target 78
+Drone36 goes to target 20
+Drone37 goes to target 33
+Drone38 goes to target 55
+Drone39 goes to target 29
+Drone40 goes to target 46
+Drone41 goes to target 40
+Drone42 goes to target 61
+Drone43 goes to target 25
+Drone44 goes to target 60
+Drone45 goes to target 80
+Drone46 goes to target 57
+Drone47 goes to target 14
+Drone48 goes to target 39
+Drone49 goes to target 73
+Drone50 goes to target 54
+Drone51 goes to target 65
+Drone52 goes to target 64
+Drone53 goes to target 75
+Drone54 goes to target 52
+Drone55 goes to target 31
+Drone56 goes to target 34
+Drone57 goes to target 22
+Drone58 goes to target 41
+Drone59 goes to target 49
+Drone60 goes to target 2
+Drone61 goes to target 9
+Drone62 goes to target 11
+Drone63 goes to target 48
+Drone64 goes to target 77
+Drone65 goes to target 76
+Drone66 goes to target 72
+Drone67 goes to target 28
+Drone68 goes to target 79
+Drone69 goes to target 17
+Drone70 goes to target 21
+Drone71 goes to target 35
+Drone72 goes to target 8
+Drone73 goes to target 43
+Drone74 goes to target 12
+Drone75 goes to target 59
+Drone76 goes to target 45
+Drone77 goes to target 69
+Drone78 goes to target 32
+Drone79 goes to target 70
+Drone80 goes to target 10
+
+Beginning Test 41
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 5.08220362663269 seconds
+
+Total Cost is 12067.85 meters
+
+Drone1 goes to target 12
+Drone2 goes to target 43
+Drone3 goes to target 51
+Drone4 goes to target 30
+Drone5 goes to target 19
+Drone6 goes to target 15
+Drone7 goes to target 18
+Drone8 goes to target 50
+Drone9 goes to target 76
+Drone10 goes to target 42
+Drone11 goes to target 67
+Drone12 goes to target 22
+Drone13 goes to target 39
+Drone14 goes to target 49
+Drone15 goes to target 14
+Drone16 goes to target 63
+Drone17 goes to target 41
+Drone18 goes to target 75
+Drone19 goes to target 68
+Drone20 goes to target 5
+Drone21 goes to target 28
+Drone22 goes to target 2
+Drone23 goes to target 74
+Drone24 goes to target 23
+Drone25 goes to target 64
+Drone26 goes to target 29
+Drone27 goes to target 66
+Drone28 goes to target 20
+Drone29 goes to target 77
+Drone30 goes to target 1
+Drone31 goes to target 3
+Drone32 goes to target 65
+Drone33 goes to target 71
+Drone34 goes to target 56
+Drone35 goes to target 53
+Drone36 goes to target 9
+Drone37 goes to target 38
+Drone38 goes to target 57
+Drone39 goes to target 54
+Drone40 goes to target 25
+Drone41 goes to target 80
+Drone42 goes to target 61
+Drone43 goes to target 81
+Drone44 goes to target 34
+Drone45 goes to target 58
+Drone46 goes to target 24
+Drone47 goes to target 70
+Drone48 goes to target 21
+Drone49 goes to target 13
+Drone50 goes to target 17
+Drone51 goes to target 47
+Drone52 goes to target 72
+Drone53 goes to target 4
+Drone54 goes to target 44
+Drone55 goes to target 55
+Drone56 goes to target 11
+Drone57 goes to target 35
+Drone58 goes to target 10
+Drone59 goes to target 36
+Drone60 goes to target 82
+Drone61 goes to target 37
+Drone62 goes to target 27
+Drone63 goes to target 8
+Drone64 goes to target 48
+Drone66 goes to target 6
+Drone67 goes to target 73
+Drone68 goes to target 33
+Drone69 goes to target 46
+Drone70 goes to target 26
+Drone71 goes to target 45
+Drone72 goes to target 32
+Drone73 goes to target 59
+Drone74 goes to target 31
+Drone75 goes to target 62
+Drone76 goes to target 69
+Drone77 goes to target 16
+Drone78 goes to target 7
+Drone79 goes to target 78
+Drone81 goes to target 40
+
+Beginning Test 42
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 5.074479579925537 seconds
+
+Total Cost is 10618.31 meters
+
+Drone1 goes to target 14
+Drone2 goes to target 28
+Drone3 goes to target 44
+Drone4 goes to target 57
+Drone5 goes to target 41
+Drone6 goes to target 27
+Drone7 goes to target 46
+Drone8 goes to target 47
+Drone9 goes to target 30
+Drone10 goes to target 80
+Drone11 goes to target 75
+Drone12 goes to target 9
+Drone13 goes to target 13
+Drone14 goes to target 10
+Drone15 goes to target 37
+Drone16 goes to target 71
+Drone17 goes to target 1
+Drone18 goes to target 50
+Drone19 goes to target 52
+Drone20 goes to target 56
+Drone21 goes to target 32
+Drone22 goes to target 18
+Drone23 goes to target 79
+Drone24 goes to target 72
+Drone25 goes to target 62
+Drone26 goes to target 23
+Drone27 goes to target 54
+Drone28 goes to target 84
+Drone29 goes to target 83
+Drone30 goes to target 35
+Drone31 goes to target 29
+Drone32 goes to target 31
+Drone33 goes to target 78
+Drone34 goes to target 48
+Drone35 goes to target 67
+Drone36 goes to target 3
+Drone37 goes to target 34
+Drone38 goes to target 63
+Drone39 goes to target 2
+Drone40 goes to target 22
+Drone41 goes to target 73
+Drone42 goes to target 20
+Drone43 goes to target 43
+Drone44 goes to target 25
+Drone45 goes to target 11
+Drone46 goes to target 61
+Drone47 goes to target 24
+Drone48 goes to target 21
+Drone49 goes to target 65
+Drone50 goes to target 53
+Drone51 goes to target 60
+Drone52 goes to target 39
+Drone53 goes to target 12
+Drone54 goes to target 16
+Drone55 goes to target 82
+Drone56 goes to target 81
+Drone57 goes to target 64
+Drone58 goes to target 38
+Drone60 goes to target 74
+Drone61 goes to target 49
+Drone62 goes to target 58
+Drone63 goes to target 40
+Drone64 goes to target 8
+Drone66 goes to target 55
+Drone67 goes to target 45
+Drone68 goes to target 66
+Drone69 goes to target 70
+Drone70 goes to target 5
+Drone71 goes to target 15
+Drone73 goes to target 76
+Drone74 goes to target 36
+Drone75 goes to target 42
+Drone76 goes to target 33
+Drone77 goes to target 17
+Drone78 goes to target 59
+Drone79 goes to target 7
+Drone80 goes to target 6
+Drone81 goes to target 26
+Drone82 goes to target 4
+Drone83 goes to target 51
+Drone84 goes to target 19
+
+Beginning Test 43
+
+Task Allocation took 9.378057718276978 seconds
+
+Total Cost is 14366.45 meters
+
+Drone1 goes to target 14
+Drone2 goes to target 8
+Drone3 goes to target 40
+Drone4 goes to target 81
+Drone5 goes to target 19
+Drone6 goes to target 48
+Drone7 goes to target 77
+Drone8 goes to target 30
+Drone9 goes to target 15
+Drone10 goes to target 6
+Drone11 goes to target 62
+Drone12 goes to target 47
+Drone13 goes to target 1
+Drone14 goes to target 58
+Drone15 goes to target 11
+Drone16 goes to target 60
+Drone17 goes to target 41
+Drone18 goes to target 71
+Drone19 goes to target 16
+Drone20 goes to target 39
+Drone21 goes to target 75
+Drone22 goes to target 49
+Drone23 goes to target 45
+Drone24 goes to target 76
+Drone25 goes to target 83
+Drone26 goes to target 13
+Drone27 goes to target 67
+Drone28 goes to target 38
+Drone29 goes to target 82
+Drone30 goes to target 70
+Drone31 goes to target 21
+Drone32 goes to target 22
+Drone33 goes to target 79
+Drone34 goes to target 74
+Drone35 goes to target 35
+Drone36 goes to target 9
+Drone37 goes to target 29
+Drone38 goes to target 65
+Drone39 goes to target 7
+Drone40 goes to target 3
+Drone41 goes to target 86
+Drone42 goes to target 28
+Drone43 goes to target 33
+Drone44 goes to target 52
+Drone45 goes to target 78
+Drone46 goes to target 61
+Drone47 goes to target 42
+Drone48 goes to target 63
+Drone49 goes to target 51
+Drone50 goes to target 37
+Drone51 goes to target 80
+Drone52 goes to target 46
+Drone53 goes to target 59
+Drone54 goes to target 25
+Drone55 goes to target 57
+Drone56 goes to target 44
+Drone57 goes to target 20
+Drone58 goes to target 84
+Drone59 goes to target 50
+Drone60 goes to target 4
+Drone61 goes to target 68
+Drone62 goes to target 55
+Drone63 goes to target 18
+Drone64 goes to target 27
+Drone65 goes to target 23
+Drone66 goes to target 5
+Drone67 goes to target 56
+Drone68 goes to target 12
+Drone69 goes to target 72
+Drone70 goes to target 73
+Drone71 goes to target 53
+Drone72 goes to target 34
+Drone73 goes to target 69
+Drone74 goes to target 10
+Drone75 goes to target 66
+Drone76 goes to target 31
+Drone77 goes to target 36
+Drone78 goes to target 26
+Drone79 goes to target 54
+Drone80 goes to target 64
+Drone81 goes to target 2
+Drone82 goes to target 43
+Drone83 goes to target 32
+Drone84 goes to target 17
+Drone85 goes to target 24
+Drone86 goes to target 85
+
+Beginning Test 44
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 8.801199197769165 seconds
+
+Total Cost is 14441.77 meters
+
+Drone1 goes to target 50
+Drone2 goes to target 48
+Drone3 goes to target 18
+Drone4 goes to target 69
+Drone5 goes to target 42
+Drone6 goes to target 16
+Drone7 goes to target 37
+Drone8 goes to target 55
+Drone9 goes to target 40
+Drone10 goes to target 23
+Drone11 goes to target 8
+Drone12 goes to target 85
+Drone13 goes to target 3
+Drone14 goes to target 77
+Drone15 goes to target 25
+Drone16 goes to target 47
+Drone17 goes to target 63
+Drone18 goes to target 41
+Drone19 goes to target 31
+Drone20 goes to target 70
+Drone21 goes to target 74
+Drone22 goes to target 32
+Drone23 goes to target 61
+Drone24 goes to target 17
+Drone25 goes to target 46
+Drone26 goes to target 14
+Drone27 goes to target 28
+Drone28 goes to target 1
+Drone29 goes to target 44
+Drone30 goes to target 73
+Drone31 goes to target 80
+Drone32 goes to target 15
+Drone33 goes to target 38
+Drone34 goes to target 21
+Drone35 goes to target 43
+Drone36 goes to target 19
+Drone37 goes to target 76
+Drone38 goes to target 83
+Drone39 goes to target 12
+Drone40 goes to target 22
+Drone41 goes to target 5
+Drone42 goes to target 79
+Drone43 goes to target 49
+Drone44 goes to target 68
+Drone45 goes to target 39
+Drone46 goes to target 35
+Drone47 goes to target 62
+Drone48 goes to target 20
+Drone49 goes to target 59
+Drone50 goes to target 66
+Drone51 goes to target 65
+Drone52 goes to target 9
+Drone53 goes to target 30
+Drone54 goes to target 4
+Drone55 goes to target 64
+Drone56 goes to target 29
+Drone57 goes to target 7
+Drone58 goes to target 27
+Drone59 goes to target 24
+Drone60 goes to target 81
+Drone61 goes to target 33
+Drone62 goes to target 52
+Drone63 goes to target 26
+Drone64 goes to target 58
+Drone65 goes to target 11
+Drone66 goes to target 82
+Drone67 goes to target 36
+Drone68 goes to target 10
+Drone69 goes to target 13
+Drone70 goes to target 57
+Drone71 goes to target 86
+Drone72 goes to target 51
+Drone73 goes to target 6
+Drone74 goes to target 45
+Drone75 goes to target 2
+Drone76 goes to target 72
+Drone77 goes to target 60
+Drone78 goes to target 34
+Drone79 goes to target 56
+Drone80 goes to target 67
+Drone81 goes to target 75
+Drone82 goes to target 71
+Drone83 goes to target 78
+Drone84 goes to target 87
+Drone87 goes to target 84
+Drone88 goes to target 53
+
+Beginning Test 45
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 11.289116382598877 seconds
+
+Total Cost is 14951.49 meters
+
+Drone1 goes to target 4
+Drone2 goes to target 67
+Drone3 goes to target 76
+Drone4 goes to target 12
+Drone5 goes to target 16
+Drone6 goes to target 49
+Drone7 goes to target 19
+Drone8 goes to target 27
+Drone9 goes to target 33
+Drone10 goes to target 90
+Drone11 goes to target 61
+Drone12 goes to target 65
+Drone13 goes to target 30
+Drone14 goes to target 34
+Drone15 goes to target 47
+Drone16 goes to target 72
+Drone17 goes to target 69
+Drone18 goes to target 60
+Drone19 goes to target 18
+Drone20 goes to target 26
+Drone21 goes to target 36
+Drone22 goes to target 17
+Drone23 goes to target 11
+Drone24 goes to target 13
+Drone25 goes to target 44
+Drone26 goes to target 14
+Drone27 goes to target 37
+Drone28 goes to target 74
+Drone29 goes to target 54
+Drone30 goes to target 1
+Drone31 goes to target 21
+Drone32 goes to target 87
+Drone33 goes to target 82
+Drone34 goes to target 15
+Drone35 goes to target 88
+Drone36 goes to target 55
+Drone37 goes to target 71
+Drone38 goes to target 57
+Drone39 goes to target 48
+Drone40 goes to target 63
+Drone41 goes to target 42
+Drone42 goes to target 56
+Drone43 goes to target 50
+Drone44 goes to target 23
+Drone45 goes to target 20
+Drone46 goes to target 40
+Drone47 goes to target 41
+Drone48 goes to target 24
+Drone49 goes to target 32
+Drone50 goes to target 43
+Drone51 goes to target 46
+Drone52 goes to target 81
+Drone53 goes to target 84
+Drone54 goes to target 79
+Drone55 goes to target 58
+Drone56 goes to target 68
+Drone57 goes to target 22
+Drone58 goes to target 89
+Drone59 goes to target 6
+Drone60 goes to target 29
+Drone61 goes to target 3
+Drone62 goes to target 35
+Drone63 goes to target 64
+Drone64 goes to target 45
+Drone65 goes to target 75
+Drone66 goes to target 39
+Drone67 goes to target 53
+Drone68 goes to target 86
+Drone69 goes to target 10
+Drone70 goes to target 62
+Drone71 goes to target 73
+Drone73 goes to target 70
+Drone74 goes to target 77
+Drone75 goes to target 8
+Drone76 goes to target 38
+Drone77 goes to target 31
+Drone78 goes to target 5
+Drone79 goes to target 83
+Drone80 goes to target 28
+Drone81 goes to target 52
+Drone82 goes to target 78
+Drone84 goes to target 25
+Drone85 goes to target 59
+Drone86 goes to target 7
+Drone87 goes to target 51
+Drone88 goes to target 9
+Drone89 goes to target 2
+Drone90 goes to target 85
+
+Beginning Test 46
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 6.9878973960876465 seconds
+
+Total Cost is 11768.97 meters
+
+Drone1 goes to target 81
+Drone2 goes to target 86
+Drone3 goes to target 38
+Drone4 goes to target 20
+Drone5 goes to target 41
+Drone6 goes to target 17
+Drone7 goes to target 10
+Drone8 goes to target 85
+Drone9 goes to target 67
+Drone10 goes to target 71
+Drone11 goes to target 13
+Drone12 goes to target 6
+Drone13 goes to target 25
+Drone14 goes to target 49
+Drone15 goes to target 21
+Drone16 goes to target 44
+Drone17 goes to target 9
+Drone18 goes to target 89
+Drone19 goes to target 61
+Drone20 goes to target 1
+Drone21 goes to target 58
+Drone22 goes to target 79
+Drone23 goes to target 77
+Drone24 goes to target 22
+Drone25 goes to target 66
+Drone26 goes to target 82
+Drone27 goes to target 40
+Drone28 goes to target 46
+Drone29 goes to target 88
+Drone30 goes to target 51
+Drone31 goes to target 45
+Drone32 goes to target 70
+Drone33 goes to target 73
+Drone34 goes to target 62
+Drone35 goes to target 5
+Drone36 goes to target 27
+Drone37 goes to target 23
+Drone38 goes to target 16
+Drone39 goes to target 48
+Drone40 goes to target 18
+Drone42 goes to target 52
+Drone43 goes to target 24
+Drone44 goes to target 26
+Drone45 goes to target 39
+Drone46 goes to target 59
+Drone47 goes to target 74
+Drone48 goes to target 8
+Drone49 goes to target 34
+Drone50 goes to target 12
+Drone51 goes to target 7
+Drone52 goes to target 72
+Drone53 goes to target 33
+Drone54 goes to target 42
+Drone55 goes to target 68
+Drone56 goes to target 60
+Drone57 goes to target 2
+Drone58 goes to target 64
+Drone59 goes to target 50
+Drone60 goes to target 63
+Drone61 goes to target 32
+Drone62 goes to target 87
+Drone63 goes to target 56
+Drone64 goes to target 78
+Drone65 goes to target 53
+Drone66 goes to target 4
+Drone67 goes to target 43
+Drone68 goes to target 3
+Drone69 goes to target 28
+Drone70 goes to target 90
+Drone71 goes to target 15
+Drone72 goes to target 75
+Drone74 goes to target 91
+Drone75 goes to target 54
+Drone77 goes to target 57
+Drone78 goes to target 55
+Drone79 goes to target 36
+Drone80 goes to target 30
+Drone81 goes to target 29
+Drone82 goes to target 92
+Drone83 goes to target 11
+Drone84 goes to target 31
+Drone85 goes to target 76
+Drone86 goes to target 65
+Drone87 goes to target 84
+Drone88 goes to target 35
+Drone90 goes to target 19
+Drone91 goes to target 14
+Drone92 goes to target 83
+
+Beginning Test 47
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+ERROR: assignment not found!!
+
+Task Allocation took 10.269028425216675 seconds
+
+Total Cost is 14676.80 meters
+
+Drone1 goes to target 25
+Drone2 goes to target 52
+Drone3 goes to target 57
+Drone4 goes to target 2
+Drone5 goes to target 64
+Drone6 goes to target 5
+Drone7 goes to target 54
+Drone8 goes to target 40
+Drone9 goes to target 76
+Drone10 goes to target 32
+Drone11 goes to target 10
+Drone12 goes to target 51
+Drone13 goes to target 68
+Drone14 goes to target 8
+Drone15 goes to target 15
+Drone16 goes to target 27
+Drone17 goes to target 66
+Drone18 goes to target 41
+Drone19 goes to target 63
+Drone20 goes to target 30
+Drone21 goes to target 18
+Drone22 goes to target 24
+Drone23 goes to target 11
+Drone24 goes to target 71
+Drone25 goes to target 79
+Drone26 goes to target 4
+Drone27 goes to target 92
+Drone28 goes to target 86
+Drone29 goes to target 62
+Drone30 goes to target 7
+Drone31 goes to target 82
+Drone32 goes to target 49
+Drone33 goes to target 26
+Drone34 goes to target 17
+Drone35 goes to target 67
+Drone36 goes to target 34
+Drone37 goes to target 19
+Drone38 goes to target 23
+Drone39 goes to target 14
+Drone40 goes to target 88
+Drone41 goes to target 37
+Drone42 goes to target 78
+Drone43 goes to target 53
+Drone44 goes to target 47
+Drone45 goes to target 48
+Drone46 goes to target 3
+Drone47 goes to target 83
+Drone48 goes to target 22
+Drone49 goes to target 90
+Drone50 goes to target 38
+Drone51 goes to target 77
+Drone52 goes to target 36
+Drone53 goes to target 56
+Drone54 goes to target 94
+Drone55 goes to target 70
+Drone56 goes to target 74
+Drone57 goes to target 91
+Drone58 goes to target 45
+Drone59 goes to target 81
+Drone60 goes to target 55
+Drone61 goes to target 69
+Drone62 goes to target 75
+Drone63 goes to target 31
+Drone64 goes to target 46
+Drone65 goes to target 12
+Drone67 goes to target 87
+Drone68 goes to target 50
+Drone69 goes to target 65
+Drone70 goes to target 13
+Drone71 goes to target 44
+Drone72 goes to target 93
+Drone73 goes to target 59
+Drone74 goes to target 29
+Drone75 goes to target 58
+Drone76 goes to target 80
+Drone77 goes to target 9
+Drone78 goes to target 20
+Drone79 goes to target 42
+Drone80 goes to target 1
+Drone81 goes to target 73
+Drone83 goes to target 35
+Drone85 goes to target 72
+Drone86 goes to target 21
+Drone87 goes to target 43
+Drone88 goes to target 6
+Drone89 goes to target 16
+Drone90 goes to target 60
+Drone91 goes to target 28
+Drone93 goes to target 84
+Drone94 goes to target 39
+
+Beginning Test 48
+ERROR: assignment not found!!
+
+Task Allocation took 12.25882601737976 seconds
+
+Total Cost is 14075.42 meters
+
+Drone1 goes to target 25
+Drone2 goes to target 35
+Drone3 goes to target 38
+Drone4 goes to target 65
+Drone5 goes to target 24
+Drone6 goes to target 47
+Drone7 goes to target 48
+Drone8 goes to target 79
+Drone9 goes to target 58
+Drone10 goes to target 92
+Drone11 goes to target 84
+Drone12 goes to target 85
+Drone13 goes to target 32
+Drone14 goes to target 71
+Drone15 goes to target 12
+Drone16 goes to target 37
+Drone17 goes to target 76
+Drone18 goes to target 73
+Drone19 goes to target 94
+Drone20 goes to target 27
+Drone21 goes to target 23
+Drone22 goes to target 19
+Drone23 goes to target 93
+Drone24 goes to target 81
+Drone25 goes to target 17
+Drone26 goes to target 70
+Drone27 goes to target 16
+Drone28 goes to target 60
+Drone29 goes to target 86
+Drone30 goes to target 64
+Drone31 goes to target 33
+Drone32 goes to target 42
+Drone33 goes to target 11
+Drone34 goes to target 68
+Drone35 goes to target 39
+Drone36 goes to target 56
+Drone37 goes to target 57
+Drone38 goes to target 34
+Drone39 goes to target 6
+Drone40 goes to target 20
+Drone41 goes to target 14
+Drone42 goes to target 41
+Drone43 goes to target 66
+Drone44 goes to target 4
+Drone45 goes to target 2
+Drone46 goes to target 45
+Drone47 goes to target 78
+Drone48 goes to target 90
+Drone49 goes to target 52
+Drone50 goes to target 28
+Drone51 goes to target 72
+Drone52 goes to target 43
+Drone53 goes to target 3
+Drone54 goes to target 10
+Drone55 goes to target 55
+Drone56 goes to target 59
+Drone57 goes to target 22
+Drone58 goes to target 53
+Drone59 goes to target 1
+Drone60 goes to target 82
+Drone61 goes to target 15
+Drone62 goes to target 54
+Drone63 goes to target 51
+Drone64 goes to target 62
+Drone65 goes to target 18
+Drone66 goes to target 8
+Drone67 goes to target 13
+Drone68 goes to target 30
+Drone69 goes to target 96
+Drone70 goes to target 95
+Drone71 goes to target 83
+Drone72 goes to target 50
+Drone73 goes to target 49
+Drone74 goes to target 88
+Drone75 goes to target 89
+Drone76 goes to target 9
+Drone77 goes to target 21
+Drone78 goes to target 80
+Drone79 goes to target 74
+Drone80 goes to target 29
+Drone81 goes to target 31
+Drone82 goes to target 46
+Drone83 goes to target 40
+Drone84 goes to target 5
+Drone85 goes to target 91
+Drone86 goes to target 44
+Drone87 goes to target 77
+Drone88 goes to target 7
+Drone89 goes to target 75
+Drone91 goes to target 67
+Drone92 goes to target 63
+Drone93 goes to target 69
+Drone94 goes to target 36
+Drone95 goes to target 87
+Drone96 goes to target 61
+
+Beginning Test 49
+
+Task Allocation took 20.836155652999878 seconds
+
+Total Cost is 22721.16 meters
+
+Drone1 goes to target 4
+Drone2 goes to target 84
+Drone3 goes to target 76
+Drone4 goes to target 19
+Drone5 goes to target 7
+Drone6 goes to target 62
+Drone7 goes to target 16
+Drone8 goes to target 96
+Drone9 goes to target 39
+Drone10 goes to target 32
+Drone11 goes to target 13
+Drone12 goes to target 80
+Drone13 goes to target 63
+Drone14 goes to target 79
+Drone15 goes to target 1
+Drone16 goes to target 71
+Drone17 goes to target 28
+Drone18 goes to target 90
+Drone19 goes to target 11
+Drone20 goes to target 41
+Drone21 goes to target 82
+Drone22 goes to target 33
+Drone23 goes to target 64
+Drone24 goes to target 37
+Drone25 goes to target 56
+Drone26 goes to target 83
+Drone27 goes to target 42
+Drone28 goes to target 53
+Drone29 goes to target 22
+Drone30 goes to target 72
+Drone31 goes to target 74
+Drone32 goes to target 17
+Drone33 goes to target 60
+Drone34 goes to target 30
+Drone35 goes to target 2
+Drone36 goes to target 12
+Drone37 goes to target 49
+Drone38 goes to target 6
+Drone39 goes to target 20
+Drone40 goes to target 73
+Drone41 goes to target 58
+Drone42 goes to target 61
+Drone43 goes to target 59
+Drone44 goes to target 95
+Drone45 goes to target 43
+Drone46 goes to target 70
+Drone47 goes to target 40
+Drone48 goes to target 8
+Drone49 goes to target 51
+Drone50 goes to target 31
+Drone51 goes to target 27
+Drone52 goes to target 68
+Drone53 goes to target 18
+Drone54 goes to target 77
+Drone55 goes to target 94
+Drone56 goes to target 46
+Drone57 goes to target 93
+Drone58 goes to target 86
+Drone59 goes to target 47
+Drone60 goes to target 75
+Drone61 goes to target 81
+Drone62 goes to target 57
+Drone63 goes to target 38
+Drone64 goes to target 98
+Drone65 goes to target 21
+Drone66 goes to target 23
+Drone67 goes to target 24
+Drone68 goes to target 14
+Drone69 goes to target 45
+Drone70 goes to target 36
+Drone71 goes to target 25
+Drone72 goes to target 26
+Drone73 goes to target 52
+Drone74 goes to target 48
+Drone75 goes to target 15
+Drone76 goes to target 89
+Drone77 goes to target 50
+Drone78 goes to target 9
+Drone79 goes to target 44
+Drone80 goes to target 29
+Drone81 goes to target 34
+Drone82 goes to target 97
+Drone83 goes to target 78
+Drone84 goes to target 65
+Drone85 goes to target 85
+Drone86 goes to target 69
+Drone87 goes to target 87
+Drone88 goes to target 10
+Drone89 goes to target 91
+Drone90 goes to target 54
+Drone91 goes to target 92
+Drone92 goes to target 88
+Drone93 goes to target 66
+Drone94 goes to target 5
+Drone95 goes to target 35
+Drone96 goes to target 67
+Drone97 goes to target 3
+Drone98 goes to target 55
+
+Beginning Test 50
+
+Task Allocation took 13.96576476097107 seconds
+
+Total Cost is 14092.04 meters
+
+Drone1 goes to target 50
+Drone2 goes to target 100
+Drone3 goes to target 73
+Drone4 goes to target 81
+Drone5 goes to target 94
+Drone6 goes to target 11
+Drone7 goes to target 54
+Drone8 goes to target 57
+Drone9 goes to target 93
+Drone10 goes to target 30
+Drone11 goes to target 84
+Drone12 goes to target 26
+Drone13 goes to target 28
+Drone14 goes to target 4
+Drone15 goes to target 42
+Drone16 goes to target 39
+Drone17 goes to target 56
+Drone18 goes to target 49
+Drone19 goes to target 63
+Drone20 goes to target 9
+Drone21 goes to target 44
+Drone22 goes to target 23
+Drone23 goes to target 31
+Drone24 goes to target 78
+Drone25 goes to target 47
+Drone26 goes to target 19
+Drone27 goes to target 72
+Drone28 goes to target 86
+Drone29 goes to target 14
+Drone30 goes to target 95
+Drone31 goes to target 40
+Drone32 goes to target 69
+Drone33 goes to target 2
+Drone34 goes to target 36
+Drone35 goes to target 48
+Drone36 goes to target 97
+Drone37 goes to target 29
+Drone38 goes to target 21
+Drone39 goes to target 75
+Drone40 goes to target 15
+Drone41 goes to target 61
+Drone42 goes to target 88
+Drone43 goes to target 91
+Drone44 goes to target 76
+Drone45 goes to target 55
+Drone46 goes to target 80
+Drone47 goes to target 13
+Drone48 goes to target 7
+Drone49 goes to target 83
+Drone50 goes to target 70
+Drone51 goes to target 46
+Drone52 goes to target 35
+Drone53 goes to target 66
+Drone54 goes to target 65
+Drone55 goes to target 77
+Drone56 goes to target 52
+Drone57 goes to target 38
+Drone58 goes to target 5
+Drone59 goes to target 43
+Drone60 goes to target 1
+Drone61 goes to target 41
+Drone62 goes to target 90
+Drone63 goes to target 16
+Drone64 goes to target 96
+Drone65 goes to target 8
+Drone66 goes to target 62
+Drone67 goes to target 6
+Drone68 goes to target 71
+Drone69 goes to target 25
+Drone70 goes to target 34
+Drone71 goes to target 17
+Drone72 goes to target 87
+Drone73 goes to target 89
+Drone74 goes to target 27
+Drone75 goes to target 18
+Drone76 goes to target 98
+Drone77 goes to target 60
+Drone78 goes to target 22
+Drone79 goes to target 53
+Drone80 goes to target 51
+Drone81 goes to target 79
+Drone82 goes to target 99
+Drone83 goes to target 92
+Drone84 goes to target 85
+Drone85 goes to target 45
+Drone86 goes to target 3
+Drone87 goes to target 74
+Drone88 goes to target 37
+Drone89 goes to target 67
+Drone90 goes to target 20
+Drone91 goes to target 82
+Drone92 goes to target 64
+Drone93 goes to target 68
+Drone94 goes to target 33
+Drone95 goes to target 10
+Drone96 goes to target 24
+Drone97 goes to target 58
+Drone98 goes to target 12
+Drone99 goes to target 32
+Drone100 goes to target 59
