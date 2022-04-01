@@ -204,7 +204,7 @@ def DHBA(targets, drones):
     for i, drone_name in enumerate(drones.keys()):
         total_dist += assign_task(drone_name, i, drones[drone_name], marked_zeros, targets)
     
-    plot_targets(targets, drones, False, True)
+    plot_targets(targets, drones, True, True)
 
 
 def plot_targets(targets, drones, show_labels=True, show_lines=True):
@@ -279,7 +279,7 @@ if __name__ == "__main__":
         new_targets = list()
         for t in targets["Targets"]:
             new_targets.append(PosVec3(X=t["X"],Y=t["Y"], Z=t["Z"]))
-        print(len(new_targets))
+        print("found " + str(len(new_targets)) +" drones")
         drones = dict()
         for i in range(numb_drones):
             drone_name = "Drone{}".format(i + 1)
@@ -295,6 +295,7 @@ if __name__ == "__main__":
             "Winners": [None for _ in range(len(new_targets))],
             "TaskList": [0 for _ in range(len(new_targets))],
             }
+        print("finished reading from json")
         DHBA(new_targets, drones)
 
     else:

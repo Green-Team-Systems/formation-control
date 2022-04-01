@@ -8,8 +8,44 @@
 import math
 import numpy as np
 import random
+import json
 
 from utils.data_classes import PosVec3
+
+data = {
+    "Targets": [
+        {
+            "X": 2.0,
+            "Y": 8.0,
+            "Z": -2.0
+        },
+        {
+            "X": 35.0,
+            "Y": 8.0,
+            "Z": -4.0
+        },
+        {
+            "X": 184.0,
+            "Y": 98.0,
+            "Z": -6.0
+        },
+        {
+            "X": -124.0,
+            "Y": -86.0,
+            "Z": -4.0
+        },
+        {
+            "X": -256.0,
+            "Y": -45.0,
+            "Z": -4.0
+        },
+        {
+            "X": 120.0,
+            "Y": 45.0,
+            "Z": -7.0
+        }
+    ]
+}
 
 def test_cases(case_num, rand_num=6):
     '''
