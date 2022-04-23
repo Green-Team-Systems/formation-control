@@ -1,7 +1,7 @@
 # ================================================================
 # Created by: Jack Roy
 # Created On: Febuary 2022
-# Updated On: Febuary 2022
+# Updated On: April 2022
 #
 # Description: Utility function for testing Task Allocation Algorithms
 # ================================================================
@@ -13,38 +13,7 @@ import json
 from utils.data_classes import PosVec3
 
 data = {
-    "Targets": [
-        {
-            "X": 2.0,
-            "Y": 8.0,
-            "Z": -2.0
-        },
-        {
-            "X": 35.0,
-            "Y": 8.0,
-            "Z": -4.0
-        },
-        {
-            "X": 184.0,
-            "Y": 98.0,
-            "Z": -6.0
-        },
-        {
-            "X": -124.0,
-            "Y": -86.0,
-            "Z": -4.0
-        },
-        {
-            "X": -256.0,
-            "Y": -45.0,
-            "Z": -4.0
-        },
-        {
-            "X": 120.0,
-            "Y": 45.0,
-            "Z": -7.0
-        }
-    ]
+    "Targets": []
 }
 
 def test_cases(case_num, rand_num=6):
@@ -99,6 +68,12 @@ def test_cases(case_num, rand_num=6):
     else:
         targets = caseRandom(rand_num)
         drones = caseRandom(rand_num)
+
+    for t in targets:
+        data["Targets"].append({'X': t.X, 'Y': t.Y, 'Z':t.Z})
+    with open("gen_targets.json", 'w') as f:
+        json.dump(data, f)
+
     return targets, drones
 
 #case 1
