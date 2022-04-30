@@ -1,17 +1,11 @@
 # %%
-from hashlib import new
-from matplotlib.collections import LineCollection
 import numpy as np
-import json
 import matplotlib.pyplot as plt
 import copy
 import random
 import time
-
-from numpy.core.fromnumeric import shape
-from utils.data_classes import PosVec3, Quaternion
+from utils.data_classes import PosVec3
 from utils.distance_utils import ned_position_difference
-from utils.test_cases import test_cases
 
 # %%
 
@@ -41,9 +35,6 @@ def ACBBA_swarm(adj: np.array, targets: np.array, drones: dict) -> np.array:
         for name, info in drones.items():
             task_assigned += sum(info["TaskList"])
 
-        if task_assigned == len(targets):
-            break  # comment this out once we can replicate
-
     end = time.time()
     plot_targets(targets, drones)
 
@@ -54,11 +45,11 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int):
     pos_diff = 0
     while np.sum(drone_info["TaskList"]) != 1:
         availability = drone_info["TaskAvailability"]
-        for i, target in enumerate(targets):
-            for t in targets:
-                pos_diff = ned_position_difference(t, drone_info["Position"]) + pos_diff
-                drone_info["RawBids"][i] = (1 / pos_diff)
-                bid = (1 / (pos_diff))
+        for i, target in enumerate(targets): #For loop to go through every single drone
+            for t in targets: #For loop to go through every target for each drone
+                pos_diff = ned_position_difference(t, drone_info["Position"]) + pos_diff #Sum of the dist between drone to each target
+                drone_info["RawBids"][i] = (1 / pos_diff) #The bid that suggests how optimal the travel cost is
+                bid = drone_info["RawBids"][i]
 
             pos_diffs.append(pos_diff)
 
@@ -68,14 +59,13 @@ def generate_bids(drone_name: str, drone_info: dict, targets: list, rnd: int):
             else:
                 availability[i] = 0
 
-                # drone_info["Bids"][i] = (1 / (pos_diff + 500))
         if sum(availability) != 0:
             task_selected = np.argmax([drone_info["Bids"][i] * availability[i] for i in range(len(targets))])
             drone_info["WinningBids"][task_selected] = drone_info["Bids"][task_selected]
             drone_info["SwarmBids"][drone_name.lstrip("Drone")] = copy.deepcopy(drone_info["WinningBids"])
 
             drone_info["TaskList"][task_selected] = 1
-            drone_info["Position"] = targets[i]
+            drone_info["Position"] = targets[i] #Change drone location to bid winning target
 
 def transmit_bids(drone_name: str, drones: dict, drone_ids: list):
     bid_list = drones[drone_name]["WinningBids"]
@@ -109,7 +99,7 @@ def determine_task_list(drone_name: str, drone_info: dict):
 
 def plot_targets(targets, drones):
     # updating to show paths
-    redrones = generate_equal_drones(numb_drones)
+    redrones = generate_equal_drones(numb_drones) #Create a duplicate list with original coordinates of drones
     target_list_x = list()
     target_list_y = list()
     labels = list()
@@ -127,7 +117,7 @@ def plot_targets(targets, drones):
     labels = list()
 
     for i, (drone_name, drone_info) in enumerate(drones.items()):
-        drone_info['Position'] = redrones[i]
+        drone_info['Position'] = redrones[i] #Change position of drone back to its original position for plotting
         labels.append(drone_name)
         drone_pos_y.append(drone_info["Position"].Y)
         drone_pos_x.append(drone_info["Position"].X)
@@ -177,9 +167,7 @@ def generate_equal_drones(num):
     drones = list()
     drones.append(PosVec3(X=-150, Y=375, Z=-1))
     drones.append(PosVec3(X=225, Y=-325, Z=-1))
-    # drones.append(PosVec3(X=-50, Y=-100, Z=-1))
-    drones.append(PosVec3(X=350, Y=-200, Z=-1))  # changed from 200
-    # drones.append(PosVec3(X=200, Y=175, Z=-1))
+    drones.append(PosVec3(X=350, Y=-200, Z=-1)) 
     drones.append(PosVec3(X=50, Y=75, Z=-1))
     return drones
 
@@ -222,14 +210,11 @@ if __name__ == "__main__":
             }
         }
 
-
         if gen_drones:
             drones[drone_name]['Position'] = new_drones[i]
         else:
             drones[drone_name]['Position'] = new_drones[i]
 
-    # fully_connected Adjacency Matrix
-    # Adj = np.ones(numb_drones) - np.identity(numb_drones)
     Adj = []
 
     ACBBA_swarm(Adj, new_targets, drones)
